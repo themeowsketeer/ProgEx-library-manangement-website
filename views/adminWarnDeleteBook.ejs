@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="english">
+    <%- include('layouts/header'); -%>
+    <body>
+        <div>
+            <link href="/css/admin-add-book.css" rel="stylesheet" />
+            <div class="add-book-container">
+                <div class="add-book-header">
+                    <%- include('layouts/navbar'); -%>
+                    <%- include('layouts/adminheader'); -%>
+                </div>
+                <div class="add-book-container2">
+                    <div class="add-book-login">
+                        <div class="add-book-background">
+                            <h1 class="add-book-text06">The following book will be removed from the database</h1>
+                            <form action="/admin/deleteBook/<%= detailedBook._id %>" method="POST" class="add-book-form">
+                                <div class="add-book-book-name">
+                                    <label for="Title" class="add-book-text07">
+                                        Title: <%= detailedBook.title %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-author">
+                                    <label for="author" class="add-book-text08">
+                                        Author: <%= detailedBook.author %>
+                                    </label>                                    
+                                </div>
+                                <div class="add-book-author1">
+                                    <label for="internationalNumber" class="add-book-text09">
+                                        ISBN: <%= detailedBook.internationalNumber %>
+                                    </label>                                    
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="synopsis" class="add-book-text11">
+                                        Synopsis: <%= detailedBook.synopsis %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="PDFPreviewLink" class="add-book-text12">
+                                        PDF Preview Link: 
+                                        <%= detailedBook.PDFPreviewLink %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="copiesAvailable" class="add-book-text12">
+                                        Quantity: <%= detailedBook.copiesAvailable%>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="createdAt" class="add-book-text12">
+                                        Uploaded: <%= detailedBook.createdAt.toDateString() %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="updatedAt" class="add-book-text12">
+                                        Last Updated: <%= detailedBook.updatedAt.toDateString() %>
+                                    </label>                                   
+                                </div>
+                                <button type='submit' class="add-book-login1 button">Confirm</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <%- include('layouts/footer'); -%>
+            </div>
+        </div>
+    </body>
+</html>

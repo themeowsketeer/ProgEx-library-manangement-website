@@ -1,0 +1,817 @@
+.adminheader-adminheader {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminheader-adminheader1 {
+  width: 1643px;
+  height: 150px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-navlink {
+  display: contents;
+}
+.adminheader-dashboardadminbutton {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 10%;
+  padding-top: 0;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-rectangle49 {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-left: 0px;
+  border-color: transparent;
+}
+.adminheader-text {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminheader-navlink1 {
+  display: contents;
+}
+.adminheader-useradminbutton {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 27.5%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-rectangle491 {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-left: 0px;
+  border-color: transparent;
+}
+.adminheader-text2 {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminheader-navlink2 {
+  display: contents;
+}
+.adminheader-bookadminbutton {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 27.5%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-rectangle492 {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-left: 0px;
+  border-color: transparent;
+}
+.adminheader-text4 {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminheader-root-class-name {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name1 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name2 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name3 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name4 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name5 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name6 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name7 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name8 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+
+.add-user-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.add-user-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-user-nav-bar {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.add-user-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-user-navlink {
+  display: contents;
+}
+.add-user-vg-logo1 {
+  width: 161px;
+  cursor: pointer;
+  height: 46px;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 40%;
+  text-decoration: none;
+}
+.add-user-navbutton {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 5%;
+  flex-direction: row;
+}
+.add-user-navlink1 {
+  display: contents;
+}
+.add-user-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.add-user-navlink2 {
+  display: contents;
+}
+.add-user-text03 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.add-user-navlink3 {
+  display: contents;
+}
+.add-user-text05 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.add-user-navlink4 {
+  display: contents;
+}
+.add-user-magnifyingglass1 {
+  width: 33px;
+  cursor: pointer;
+  height: 29px;
+  display: flex;
+  align-self: center;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 2%;
+  align-content: center;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.add-user-navlink5 {
+  color: rgb(255, 255, 255);
+  width: 208px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(219, 129, 45);
+}
+.add-user-navlink5:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.add-user-navlink5:active {
+  background-color: #af5d05;
+}
+.add-user-container2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/image15919-goa-1100h.png");
+}
+.add-user-login {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-user-background {
+  width: 1094px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/rectangle165920-3emg-700h.png");
+  background-color: #edeaea;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 9px;
+}
+.add-user-text06 {
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  font-size: 48px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 3.5%;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.add-user-form {
+  width: 773px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: 3.5%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-user-full-name {
+  width: 633px;
+  height: 60.9765625px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.add-user-text07 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.add-user-textinput {
+  width: 100%;
+  font-family: Montserrat;
+  border-color: #302f2f;
+  border-style: solid;
+  border-width: 1px;
+}
+.add-user-username {
+  width: 629px;
+  height: 60.9765625px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.add-user-text08 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.add-user-textinput1 {
+  font-family: Montserrat;
+  border-color: #302f2f;
+  border-width: 1px;
+}
+.add-user-edition {
+  width: 629px;
+  height: 60.9765625px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.add-user-text09 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.add-user-textinput2 {
+  font-family: Montserrat;
+  border-color: #302f2f;
+  border-width: 1px;
+}
+.add-user-pub-year {
+  width: 629px;
+  height: 60.9765625px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.add-user-text10 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.add-user-textinput3 {
+  font-family: Montserrat;
+  border-color: #302f2f;
+  border-width: 1px;
+}
+.add-user-login1 {
+  color: rgb(255, 255, 255);
+  width: 121px;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: 9px;
+  background-size: cover;
+  text-decoration: none;
+  background-color: #db812d;
+  margin-bottom: 4%;
+  margin-top: 2%
+}
+.add-user-login1:hover {
+  box-shadow: 5px 5px 10px 0px #b6b0b0;
+}
+.add-user-input-info {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-user-footer {
+  width: 100%;
+  height: 213px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  background-image: url("public/playground_assets/rectangle247216-8dmo-300h.png");
+}
+.add-user-container3 {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.add-user-container4 {
+  flex: 0 0 auto;
+  width: 383px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.add-user-v-ulogofullwhite1 {
+  width: 255px;
+  height: 72px;
+  border-color: transparent;
+}
+.add-user-text11 {
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.add-user-text18 {
+  color: rgb(255, 255, 255);
+  width: 347px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.add-user-navbutton1 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  flex-direction: row;
+}
+.add-user-home {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.add-user-navlink6 {
+  display: contents;
+}
+.add-user-text19 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.add-user-text22 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.add-user-contact {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.add-user-navlink7 {
+  display: contents;
+}
+.add-user-text36 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.add-user-text37 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.add-user-about {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: column;
+}
+.add-user-navlink8 {
+  display: contents;
+}
+.add-user-text47 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.add-user-text48 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+@media(max-width: 1200px) {
+  .add-user-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .add-user-navbutton {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .add-user-text {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .add-user-text03 {
+    top: 4.00390625px;
+    right: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .add-user-text05 {
+    top: 2.01171875px;
+    color: rgb(115, 117, 117);
+    width: auto;
+    position: static;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+  }
+  .add-user-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+  .add-user-background {
+    height: auto;
+  }
+  .add-user-text07 {
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .add-user-text08 {
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .add-user-text09 {
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .add-user-text10 {
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  .add-user-navbutton1 {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .add-user-text19 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .add-user-text36 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .add-user-text47 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}

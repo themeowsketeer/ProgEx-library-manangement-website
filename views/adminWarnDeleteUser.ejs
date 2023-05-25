@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="english">
+    <%- include('layouts/header'); -%>
+  <body>
+    <div>
+      <link href="/css/admin-add-user.css" rel="stylesheet" />
+
+      <div class="add-user-container">
+        <div class="add-user-header">
+            <%- include('layouts/navbar'); -%>
+            <%- include('layouts/adminheader'); -%>
+        </div>
+        <div class="add-user-container2">
+          <div class="add-user-login">
+            <div class="add-user-background">
+              <h1 class="add-user-text06">The following user will be removed from the database</h1>
+              <form action="/admin/deleteUser/<%= detailedUser._id %>" method="POST" class="add-user-form">
+                <div class="add-user-full-name">
+                  <label for="fullName" class="add-user-text07">
+                    Full Name: <%= detailedUser.userInfo.FName %> <%= detailedUser.userInfo.LName %>
+                  </label>
+                </div>
+                <div class="add-user-username">
+                  <label for="userName" class="add-user-text08">
+                    Username: <%= detailedUser.username %>
+                  </label>
+                </div>
+                <div class="add-user-edition">
+                  <label for="Age" class="add-user-text09">
+                    Age: <%= detailedUser.userInfo.age %>
+                  </label>
+                </div>
+                <div class="add-user-pub-year">
+                  <label for="Email" class="add-user-text10">
+                    Email: <%= detailedUser.email %>
+                  </label>
+                </div>
+                <div class="add-user-pub-year">
+                  <label for="Email" class="add-user-text10">
+                    Books borrowed: <%= detailedUser.booksBorrowing.length %>
+                  </label>
+                </div>
+                <div class="add-user-pub-year">
+                  <label for="Email" class="add-user-text10">
+                    Date created: <%= detailedUser.createdAt.toDateString() %>
+                  </label>
+                </div>
+                <button type='submit' class="add-book-login1 button">Confirm</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <%- include('layouts/footer'); -%>
+      </div>
+    </div>
+  </body>
+</html>

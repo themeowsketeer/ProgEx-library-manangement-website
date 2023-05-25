@@ -1,0 +1,152 @@
+.book-order-book-order {
+  width: 1319px;
+  height: 245px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.book-order-chroniclebook1 {
+  width: 163px;
+  height: 235px;
+  border-color: transparent;
+}
+.book-order-book-text {
+  width: 1005px;
+  height: 229.60000038146973px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.book-order-book-name {
+  color: rgb(0, 0, 0);
+  width: 1000px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-order-text {
+  font-weight: 700;
+}
+.book-order-text02 {
+  font-style: normal;
+  font-weight: 500;
+}
+.book-order-author {
+  color: rgb(0, 0, 0);
+  width: 473px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-order-text03 {
+  font-weight: 700;
+}
+.book-order-text05 {
+  font-style: normal;
+  font-weight: 500;
+}
+.book-order-user-id {
+  color: rgb(0, 0, 0);
+  width: 418px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-order-text06 {
+  font-weight: 700;
+}
+.book-order-text08 {
+  font-style: normal;
+  font-weight: 500;
+}
+.book-order-username {
+  color: rgb(0, 0, 0);
+  width: 519px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-order-text09 {
+  font-weight: 700;
+}
+.book-order-text11 {
+  font-style: normal;
+  font-weight: 500;
+}
+.book-order-borrow-date {
+  color: rgb(0, 0, 0);
+  width: 634px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-order-text12 {
+  font-weight: 700;
+}
+.book-order-text14 {
+  font-style: normal;
+  font-weight: 500;
+}
+.book-order-return-date {
+  color: rgb(0, 0, 0);
+  width: 686px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-order-text15 {
+  font-weight: 700;
+}
+.book-order-text17 {
+  font-style: normal;
+  font-weight: 500;
+}

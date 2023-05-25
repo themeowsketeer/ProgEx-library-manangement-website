@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="english">
+    <%- include('layouts/header'); -%>
+    <body>
+        <div>
+            <link href="/css/admin-add-book.css" rel="stylesheet" />
+            <div class="add-book-container">
+                <div class="add-book-header">
+                    <%- include('layouts/navbar'); -%>
+                    <%- include('layouts/adminheader'); -%>
+                </div>
+                <div class="add-book-container2">
+                    <div class="add-book-login">
+                        <div class="add-book-background">
+                            <h1 class="add-book-text06">Book Info</h1>
+                            <form action="/admin/storeBook" method="POST" class="add-book-form">
+                                <div class="add-book-book-name">
+                                    <label for="Title" class="add-book-text07">
+                                        Title: <%= detailedBook.Title %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-author">
+                                    <label for="Author" class="add-book-text08">
+                                        Author: <%= detailedBook.Author %>
+                                    </label>                                    
+                                </div>
+                                <div class="add-book-author1">
+                                    <label for="Category" class="add-book-text09">
+                                        Category: <%= detailedBook.Category %>
+                                    </label>                                    
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="publishedDate" class="add-book-text11">
+                                        Published Year: <%= detailedBook.publishedDate %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="Quantity" class="add-book-text12">
+                                        In Stock: <%= detailedBook.Quantity %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="Quantity" class="add-book-text12">
+                                        Recommendation Percentage: <%= detailedBook.Recommendation%>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="Quantity" class="add-book-text12">
+                                        Date Uploaded: <%= detailedBook.createdAt.toDateString() %>
+                                    </label>                                   
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="Quantity" class="add-book-text12">
+                                        Date Last Updated: <%= detailedBook.updatedAt.toDateString() %>
+                                    </label>                                   
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <%- include('layouts/footer'); -%>
+            </div>
+        </div>
+    </body>
+</html>

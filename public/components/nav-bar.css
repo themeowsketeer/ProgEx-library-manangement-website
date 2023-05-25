@@ -1,0 +1,235 @@
+.nav-bar-nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.nav-bar-navlink {
+  display: contents;
+}
+.nav-bar-vg-logo1 {
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: transparent;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.nav-bar-right-side-pane {
+  width: 100%;
+  align-self: center;
+}
+.nav-bar-other-buttons {
+  gap: 2%;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-bar-nav-links {
+  gap: inherit;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  padding: 0%;
+  align-self: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  flex-direction: row;
+  padding-bottom: 2%;
+  justify-content: flex-end;
+}
+.nav-bar-navlink1 {
+  display: contents;
+}
+.nav-bar-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.nav-bar-navlink2 {
+  display: contents;
+}
+.nav-bar-text03 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.nav-bar-text04 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.nav-bar-tobe-deleted {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  height: auto;
+  display: none;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.nav-bar-tobe-deleted1 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  height: auto;
+  display: none;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.nav-bar-text08 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.nav-bar-magnifyingglass1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  margin-left: 0%;
+  border-color: transparent;
+  margin-right: 0%;
+  align-content: center;
+  margin-bottom: 0px;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.nav-bar-text10 {
+  width: auto;
+  cursor: pointer;
+  height: 100%;
+  font-size: 24px;
+  align-self: center;
+  margin-top: 0px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 0%;
+  font-stretch: normal;
+  margin-right: 0%;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+.nav-bar-text11 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: 100%;
+  font-size: 24px;
+  align-self: center;
+  font-style: Black;
+  margin-top: 0px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: normal;
+  margin-left: 0%;
+  font-stretch: normal;
+  margin-right: 0%;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .nav-bar-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .nav-bar-other-buttons {
+    gap: 3%;
+  }
+  .nav-bar-nav-links {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .nav-bar-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+}

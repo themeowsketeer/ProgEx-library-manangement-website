@@ -1,0 +1,1396 @@
+.home-container {
+  min-height: 100vh;
+}
+.home-home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-nav-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-container01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-navlink {
+  display: contents;
+}
+.home-vg-logo1 {
+  width: 161px;
+  cursor: pointer;
+  height: 46px;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 40%;
+  text-decoration: none;
+}
+.home-navbutton {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 5%;
+  flex-direction: row;
+}
+.home-navlink1 {
+  display: contents;
+}
+.home-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.home-navlink2 {
+  display: contents;
+}
+.home-text003 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.home-navlink3 {
+  display: contents;
+}
+.home-text005 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.home-navlink4 {
+  display: contents;
+}
+.home-magnifyingglass1 {
+  width: 33px;
+  cursor: pointer;
+  height: 29px;
+  display: flex;
+  align-self: center;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 2%;
+  align-content: center;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.home-navlink5_1 {
+  color: rgb(255, 255, 255);
+  width: 183px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(222, 112, 0);
+}
+.home-navlink5_1:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-navlink5_1:active {
+  background-color: #af5d05;
+}
+.home-navlink5 {
+  color: rgb(255, 255, 255);
+  width: 183px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(222, 112, 0);
+}
+.home-navlink5:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-navlink5:active {
+  background-color: #af5d05;
+}
+.home-header {
+  width: 100%;
+  height: 553px;
+  display: flex;
+  margin-top: 0%;
+  align-items: center;
+  margin-bottom: 0%;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/vgutheater11882-jsdc-600h.png");
+}
+.home-text006 {
+  flex: 0 0 auto;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  display: flex;
+  font-size: 64px;
+  align-self: center;
+  font-style: ExtraBold;
+  text-align: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 30px;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+.home-text007 {
+  color: #ffffff;
+}
+.home-text008 {
+  color: #db812d;
+}
+.home-search-bar {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-add-to-cart-button {
+  color: rgb(255, 255, 255);
+  width: 210px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: 9px;
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: rgb(219, 129, 45);
+}
+.home-add-to-cart-button:hover {
+  box-shadow: 5px 5px 10px 0px #9f9c9c;
+}
+.home-search-bar1 {
+  width: 850px;
+  height: 45px;
+  font-size: 24px;
+  align-self: center;
+  font-family: Montserrat;
+  border-width: 0px;
+  border-radius: 9px;
+  background-color: #FFFFFF;
+}
+.home-main-content {
+  width: 100%;
+  display: flex;
+  margin-top: 0%;
+  align-items: center;
+  margin-bottom: 0%;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-bookofthe-week-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 0%;
+  align-items: flex-end;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  justify-content: center;
+}
+.home-info {
+  flex: 0 0 auto;
+  width: 683px;
+  height: 584px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text009 {
+  color: rgba(0, 0, 0, 1);
+  width: 306px;
+  height: auto;
+  font-size: 28px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text011 {
+  color: rgba(219, 129, 45, 1);
+  width: 680px;
+  height: auto;
+  font-size: 64px;
+  align-self: flex-start;
+  font-style: ExtraBold;
+  margin-top: 10px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.home-text016 {
+  color: rgba(0, 0, 0, 1);
+  width: 306px;
+  height: auto;
+  font-size: 28px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text018 {
+  color: rgba(0, 0, 0, 1);
+  width: 618px;
+  height: auto;
+  font-size: 24px;
+  align-self: flex-start;
+  font-style: Medium;
+  margin-top: 10px;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.home-container02 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-add-to-cart-button1 {
+  color: rgb(255, 255, 255);
+  width: 210px;
+  height: 45px;
+  font-size: 24px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  border-width: 0px;
+  border-radius: 9px;
+  text-transform: capitalize;
+  background-color: rgb(219, 129, 45);
+}
+.home-add-to-cart-button1:hover {
+  box-shadow: 5px 5px 10px 0px #aaa8a8;
+}
+.home-add-to-cart-button1:active {
+  background-color: #985010;
+}
+.home-text020 {
+  color: rgba(115, 117, 117, 1);
+  width: 200px;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: flex-end;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 6%;
+  font-stretch: normal;
+  margin-right: 6%;
+  text-decoration: none;
+}
+.home-alan-turingbook1 {
+  flex: 0 0 auto;
+  width: 351px;
+  height: 496px;
+  display: flex;
+  align-self: center;
+  margin-left: 5%;
+  border-color: transparent;
+}
+.home-featured-books {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0%;
+  align-items: center;
+  margin-left: 4%;
+  padding-top: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  flex-direction: row;
+  padding-bottom: 4%;
+  justify-content: center;
+  background-color: #DB812D;
+}
+.home-text022 {
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  font-size: 64px;
+  font-style: ExtraBold;
+  margin-top: -20px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.home-slide-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-arrow2 {
+  width: 35px;
+  height: 35px;
+  border-color: transparent;
+}
+.home-the-slide-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-slide-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-book-cards {
+  flex: 0 0 auto;
+  width: auto;
+  height: 497px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-book-1 {
+  width: 380px;
+  height: 492.98828125px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-physicscanbefunbook1 {
+  width: 193px;
+  height: 277px;
+  border-color: transparent;
+}
+.home-text024 {
+  color: rgb(255, 255, 255);
+  width: 365px;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text025 {
+  font-size: 25px;
+}
+.home-text026 {
+  font-size: 25px;
+}
+.home-text027 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+}
+.home-button {
+  color: var(--dl-color-gray-white);
+  font-size: 24px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  border-color: var(--dl-color-gray-white);
+  border-style: solid;
+  border-width: 5px;
+  background-color: #DB812D;
+}
+.home-button:hover {
+  font-size: 24px;
+  box-shadow: 5px 5px 10px 0px #4b4949;
+  font-style: normal;
+  font-weight: 800;
+  border-width: 7px;
+}
+.home-arrow1 {
+  width: 36px;
+  border-color: transparent;
+}
+.home-service {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 0%;
+  align-items: center;
+  margin-left: 4%;
+  padding-top: 2%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  flex-direction: column;
+  padding-bottom: 4%;
+  justify-content: center;
+}
+.home-text029 {
+  color: rgba(219, 129, 45, 1);
+  width: 100%;
+  height: auto;
+  font-size: 64px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+.home-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 455px;
+  display: flex;
+  align-items: center;
+  margin-left: inherit;
+  margin-right: inherit;
+  justify-content: center;
+}
+.home-room-booking {
+  width: 300px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/errorcat11357-p8cb-500h.png");
+  background-position: center;
+}
+.home-room-booking1 {
+  width: 300px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/errorcat11357-p8cb-500h.png");
+  background-position: center;
+}
+.home-room-booking2 {
+  width: 300px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/errorcat11357-p8cb-500h.png");
+  background-position: center;
+}
+.home-room-booking3 {
+  width: 300px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: row;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/errorcat11357-p8cb-500h.png");
+  background-position: center;
+}
+.home-news-events {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 0;
+  margin-top: 0%;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text031 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  display: block;
+  font-size: 64px;
+  align-self: flex-start;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.home-event-place {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  margin-top: 0px;
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-bottom: 30px;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-container04 {
+  width: 300px;
+  height: 592px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 0%;
+  flex-direction: column;
+}
+.home-text032 {
+  color: rgb(255, 255, 255);
+  width: 291px;
+  height: auto;
+  font-size: 66px;
+  align-self: flex-start;
+  font-style: ExtraBold;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-text036 {
+  color: rgb(255, 255, 255);
+  width: 277px;
+  height: auto;
+  font-size: 28px;
+  align-self: flex-start;
+  font-style: Medium;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.home-button1 {
+  color: #DB812D;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  font-weight: 700;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.home-event-cards {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 10%;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-container05 {
+  width: 400px;
+  height: 580px;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-faust1 {
+  width: 100%;
+  height: 200px;
+  border-color: transparent;
+}
+.home-container06 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text037 {
+  color: rgba(115, 117, 117, 1);
+  width: 181px;
+  height: auto;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text039 {
+  color: rgba(219, 129, 45, 1);
+  width: 328px;
+  height: auto;
+  font-size: 28px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text041 {
+  color: rgba(115, 117, 117, 1);
+  width: 328px;
+  height: auto;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text043 {
+  color: rgba(219, 129, 45, 1);
+  width: 128px;
+  height: auto;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-container07 {
+  width: 400px;
+  height: 580px;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-ostern1 {
+  width: 400px;
+  height: 200px;
+  border-color: transparent;
+}
+.home-container08 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text045 {
+  color: rgba(115, 117, 117, 1);
+  width: 182px;
+  height: auto;
+  display: block;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text047 {
+  color: rgba(219, 129, 45, 1);
+  width: 343px;
+  height: auto;
+  display: block;
+  font-size: 28px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text049 {
+  color: rgba(115, 117, 117, 1);
+  width: 329px;
+  height: auto;
+  display: block;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: Medium;
+  text-align: justified;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text051 {
+  color: rgba(219, 129, 45, 1);
+  width: 129px;
+  height: auto;
+  display: block;
+  font-size: 20px;
+  align-self: flex-start;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-research {
+  width: 100%;
+  height: 339px;
+  display: flex;
+  margin-top: 0%;
+  align-items: center;
+  margin-left: 4%;
+  padding-top: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  flex-direction: column;
+  padding-bottom: 4%;
+  justify-content: center;
+}
+.home-text053 {
+  color: rgba(219, 129, 45, 1);
+  width: 100%;
+  height: auto;
+  display: block;
+  font-size: 64px;
+  align-self: flex-start;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+.home-container09 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.home-statista1 {
+  width: 280px;
+  height: 70px;
+  margin-left: 5%;
+  border-color: transparent;
+  margin-right: 0%;
+}
+.home-proquest1 {
+  width: 189px;
+  height: 70px;
+  margin-left: 5%;
+  border-color: transparent;
+  margin-right: 5%;
+}
+.home-galeresearch1 {
+  width: 251px;
+  height: 70px;
+  margin-left: 0%;
+  border-color: transparent;
+  margin-right: 0%;
+}
+.home-springerprofessional1 {
+  width: 290px;
+  height: 70px;
+  margin-left: 5%;
+  border-color: transparent;
+  margin-right: 5%;
+}
+.home-container10 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 0%;
+  align-items: center;
+  margin-left: 4%;
+  padding-top: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  padding-bottom: 4%;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/vgureadingzone1642-4x4o-200h.png");
+}
+.home-container11 {
+  width: 100%;
+  height: 382.98828125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-container12 {
+  flex: 0 0 auto;
+  width: 780.99609375px;
+  height: 382.98828125px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-right: 35%;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("public/playground_assets/rectangle22659-hdg-1500h.png");
+}
+.home-text055 {
+  display: flex;
+  margin-top: 50px;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text056 {
+  color: rgba(255, 255, 255, 1);
+  width: 556px;
+  height: auto;
+  font-size: 54px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text058 {
+  color: rgb(255, 255, 255);
+  width: 635px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-enter-email {
+  width: 602.9791564941406px;
+  height: 38.66666793823242px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-textinput {
+  width: 487px;
+  border-width: 0px;
+}
+.home-button2 {
+  width: 108px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-width: 0px;
+  flex-direction: row;
+  background-size: contain;
+  justify-content: center;
+  background-color: transparent;
+  background-image: url("public/playground_assets/rectangle236511-2p9o-1500h.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-text059 {
+  color: #ffffff;
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.home-text060 {
+  font-family: Montserrat;
+}
+.home-text061 {
+  font-style: normal;
+  font-weight: 700;
+}
+.home-footer {
+  width: 100%;
+  height: 213px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  background-image: url("/playground_assets/rectangle247216-8dmo-300h.png");
+}
+.home-container13 {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.home-container14 {
+  flex: 0 0 auto;
+  width: 383px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-v-ulogofullwhite1 {
+  width: 255px;
+  height: 72px;
+  border-color: transparent;
+}
+.home-text062 {
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text069 {
+  color: rgb(255, 255, 255);
+  width: 347px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-navbutton1 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  flex-direction: row;
+}
+.home-home1 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.home-navlink6 {
+  display: contents;
+}
+.home-text070 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.home-text073 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.home-contact {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.home-navlink7 {
+  display: contents;
+}
+.home-text087 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.home-text088 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.home-about {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: column;
+}
+.home-navlink8 {
+  display: contents;
+}
+.home-text098 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.home-text099 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+
+
+
+@media(max-width: 1200px) {
+  .home-container {
+    all: initial;
+  }
+  .home-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .home-navbutton {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .home-text {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .home-text003 {
+    top: 4.00390625px;
+    right: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .home-text005 {
+    top: 2.01171875px;
+    color: rgb(115, 117, 117);
+    width: auto;
+    position: static;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+  }
+  .home-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+  .home-text006 {
+    top: 149px;
+    right: 95px;
+    position: absolute;
+  }
+  .home-bookofthe-week-section {
+    top: 506px;
+    left: 59px;
+    width: 1060px;
+    height: 581px;
+    position: absolute;
+    align-self: flex-end;
+  }
+  .home-text011 {
+    top: 76px;
+    left: 21px;
+  }
+  .home-text016 {
+    top: 257px;
+    left: 30px;
+  }
+  .home-text032 {
+    top: 76px;
+    left: 21px;
+  }
+  .home-navbutton1 {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .home-text070 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .home-text087 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .home-text098 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+@media(max-width: 991px) {
+  .home-bookofthe-week-section {
+    top: 501px;
+    left: 64px;
+    width: 990px;
+    height: 555px;
+  }
+  .home-alan-turingbook1 {
+    width: 443px;
+  }
+}
+
+
+

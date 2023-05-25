@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="english">
+ 
+  <%- include('layouts/header'); -%>
+
+    <body>
+      <div>
+        <link href="/css/paySuccess.css" rel="stylesheet" />
+          <div class="paymentsuccess-container">
+            <div class="paymentsuccess-successpayment">
+              <div class="paymentsuccess-container1">
+                <%- include('layouts/navbar'); -%>
+                <h1 class="paymentsuccess-text06">Success payment</h1>
+                  <div class="paymentsuccess-container3">
+                    <% if (book.coverLink) {%>
+                      <img
+                        alt="AlanTuringbook28573"
+                        src="<%= book.coverLink %>"
+                        class="paymentsuccess-alan-turingbook2"
+                      />
+                      <%} else {%> 
+                        <img
+                        alt="AlanTuringbook28520"
+                        src="/playground_assets/alanturingbook28520-8axk-500h.png"
+                        class="paymentsuccess-alan-turingbook2"
+                      />
+                      <%} %>
+                    <article class="paymentsuccess-container4">
+                      <p class="paymentsuccess-text07">
+                        <span class="paymentsuccess-text08">Book name:</span>
+                        <span></span>
+                        <span class="paymentsuccess-text10"><%= book.title %></span>
+                      </p>
+                      <p class="paymentsuccess-text11">
+                        <span class="paymentsuccess-text12">Your debt:</span>
+                        <span></span>
+                        <span class="paymentsuccess-text14"><%= record.paymentAmount %>.000 VND</span>
+                      </p>
+                      <p class="paymentsuccess-text15">
+                        <span>Your payment is success !!!</span>
+                        <br />
+                        <br />
+                        <span>Thank you for your payment.</span>
+                        <br />
+                      </p>
+                      <a href="/index" class="paymentsuccess-return-home button">Return home</a>
+                      <br>
+                    </article>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!--footer-->
+          <%- include('layouts/footer'); -%>
+      </div>
+      <!--Script-->
+      <%- include('layouts/script'); -%>
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="english">
+    <%- include('layouts/header'); -%>
+  <body>
+    <div>
+      <link href="/css/admin-add-user.css" rel="stylesheet" />
+
+      <div class="add-user-container">
+        <div class="add-user-header">
+            <%- include('layouts/navbar'); -%>
+            <%- include('layouts/adminheader'); -%>
+        </div>
+        <div class="add-user-container2">
+          <div class="add-user-login">
+            <div class="add-user-background">
+              <h1 class="add-user-text06">Add user</h1>
+              <form action="/admin/storeUser" name="addUser" enctype="multipart/form-data" method="POST" onsubmit="return validateForm()" class="add-user-form">
+                <div class="add-user-full-name">
+                  <label for="fullName" class="add-user-text07">
+                    First name
+                  </label>
+                  <input
+                    type="text"
+                    id="userInfo.FName"
+                    name="userInfo.FName"
+                    class="add-user-textinput input"
+                  />
+                </div>
+                <div class="add-user-full-name">
+                  <label for="fullName" class="add-user-text07">
+                    Last name
+                  </label>
+                  <input
+                    type="text"
+                    id="userInfo.LName"
+                    name="userInfo.LName"
+                    class="add-user-textinput input"
+                  />
+                </div>
+                <div class="add-user-username">
+                  <label for="userName" class="add-user-text08">Username</label>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    class="add-user-textinput1 input"
+                  />
+                </div>
+                <div class="add-user-edition">
+                  <label for="Age" class="add-user-text09">Age</label>
+                  <input
+                    type="text"
+                    id="userInfo.age"
+                    name="userInfo.age"
+                    class="add-user-textinput2 input"
+                  />
+                </div>
+                <div class="add-user-edition">
+                  <label for="Age" class="add-user-text09">Password</label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    class="add-user-textinput2 input"
+                  />
+                </div>
+                <div class="add-user-pub-year">
+                  <label for="Email" class="add-user-text10">Email</label>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="add-user-textinput3 input"
+                  />
+                </div>
+                <div class="add-user-pub-year">
+                  <label for="profileImage" class="add-user-text10">Image</label>
+                  <input
+                    type="file"
+                    id="iconLink"
+                    name="iconLink"
+                    class="add-user-textinput3 input"
+                  />
+                </div>
+                <button type='submit' class="add-user-login1 button">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <%- include('layouts/footer'); -%>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/js/addUserEmpty.js"></script>
+</html>

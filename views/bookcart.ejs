@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="/css/bookcart.css" rel="stylesheet" />
+      <link href="/css/userprofilesetting.css" rel="stylesheet" />
+      <div class="bookcart-container">
+        <!-- navbar -->
+        <%- include('layouts/navbar'); -%>
+        <!-- userChoice -->
+        <%- include('layouts/UserNav'); -%>
+          <div class="bookcart-container02">
+            <div class="bookcart-container03">
+              <div class="bookcart-container04">
+                <span class="bookcart-text13"><span>All books</span></span>
+              </div>
+            </div>
+            <div class="bookcart-container05">
+              <span class="bookcart-text15"><span>Overdue</span></span>
+            <% for (var r = 0; r < borrowedList.length; r++) { %>
+              <% if (borrowedList[r].overDue == true ) { %>
+              <div class="app-component-container">
+                <input
+                  type="radio"
+                  name="id"
+                  id = "id "
+                  class="app-component-radiobutton"
+                  checked= ""
+                  value = <%= borrowedList[r]._id %>
+                  
+                />
+                <% for (var k = 0; k < book.length; k++) { %>
+                <%if(borrowedList[r].bookID.equals(book[k]._id ) ) {%>
+                <img
+                  alt="ThinkJavabook19753"
+                  src="<%= book[k].coverLink %>"
+                  class="app-component-think-javabook1" 
+                />
+                <div class="app-component-container1">
+                  <span class="app-component-text">
+                    <span><%=book[k].name %></span>
+                  </span>
+                  <span class="app-component-text02">
+                    <span>Author:</span>
+                    <span class="app-component-text04">
+                     <%=book[k].author %>
+                    </span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                  <span class="app-component-text07">
+                    <span>Issued date:</span>
+                    <span class="app-component-text09">
+                      <%= borrowedList[r].createdAt.toDateString() %>
+                    </span>
+                  </span>
+                  
+                  <span class="app-component-text13">
+                    <span class="app-component-text14">Total fee:</span>
+                    <span class="app-component-text15">
+                      <%= borrowedList[r].paymentAmount %>
+                    </span>
+                  </span>
+                </div>
+                <% break %>
+                <% } %>
+                <% } %>
+
+              </div>
+              <% }%>
+              <% } %>
+              <div class = "dropdown" >
+                <button  class="bookcart-view-all-button button" onclick="paymentFunction()">Pay Overdue</button>
+                <div class = "dropdown-content-1" id ="paymentChoice"  >
+                  <a  id= "help" href="/payCash/<%= bookid  %>">by Cash</a>
+                  <a  id="why" href="/payOnline/<%= bookid  %>">by Credit card</a>
+                </div>
+              </div>
+              
+            </div>
+          
+            <div class="bookcart-container06">
+              <span class="bookcart-text17">Issued</span>
+
+            <% for (var j = 0; j < borrowedList.length; j++) { %>
+              <% if (borrowedList[j].overDue == false && borrowedList[j].hasReturned == false) { %>
+              <form action="/users/returnBook" method="POST">
+              <div class="app-component-container">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="app-component-radiobutton"
+                />
+                <input
+                type="hidden"
+                name="ID"
+                id ="ID"
+                value= <%= borrowedList[j].bookID %>
+              />
+               
+              
+
+                <% for (var k = 0; k < book.length; k++) { %>
+                  <%if(borrowedList[j].bookID.equals(book[k]._id ) ) {%>
+                    
+                <img
+                  alt="ThinkJavabook19753"
+                  src="<%= book[k].coverLink %>"
+                  class="app-component-think-javabook1"
+                />
+                <div class="app-component-container1">
+                  <span class="app-component-text">
+                    <span><%= book[k].name %></span>
+                  </span>
+                  <span class="app-component-text02">
+                    <span>Author:</span>
+                    <span class="app-component-text04">
+                     <%= book[k].author %> 
+                    </span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                  <span class="app-component-text07">
+                    <span>Issued date:</span>
+                    <span class="app-component-text09"><%= borrowedList[j].createdAt.toDateString() %></span>
+                  </span>
+                  <span class="app-component-text10">
+                    <span>Due date:</span>
+                    <span class="app-component-text12"><%= da.toDateString() %></span>
+                  </span>
+                </div>
+              </div>
+             
+              <button
+                type="submit"
+                class="bookcart-view-all-button button"
+              >
+                Return book
+              </button>
+            
+                  <% break %>
+                  <% } %>
+                  <% } %>
+              </form>
+              <% } %>  
+              <% } %>
+            </div>
+            <p id="demo"> </p>
+
+            <div class="bookcart-container07">
+              <span class="bookcart-text18">wishlist</span>
+            <% if (idk == "yes") { %>
+              <% for (var i = 0; i < a.length; i++) { %>
+               <form action="/users/borrow2" method="POST" >
+              <div class="app-component-container">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="app-component-radiobutton"
+                />
+                
+                <input
+                type="hidden"
+                name="userID"
+                id="userID"
+                class="book-info-textinput input"
+                value= <%= loggedIn %>
+                > 
+
+                <input
+                type="hidden"
+                name="bookID"
+                id="bookID"
+                class="book-info-textinput input"
+                value= <%= a[i].bookID %>
+                > 
+
+                <input
+                type="hidden"
+                name="dueDate"
+                id="dueDate"
+                class="book-info-textinput input"
+                value= <%= date %>
+                > 
+                <% for (var k = 0; k < book.length; k++)  { %>
+                  <%if(a[i].bookID.equals(book[k]._id))  { %>
+                <img
+                  alt="ThinkJavabook19753"
+                  src="<%= book[k].coverLink %>"
+                  class="app-component-think-javabook1"
+                />
+                <div class="app-component-container1">
+                  <span class="app-component-text">
+                    <span><%= book[k].title %></span>
+                  </span>
+                  <span class="app-component-text02">
+                    <span>Author:</span>
+                    <span class="app-component-text04">
+                      <%= book[k].author %> 
+                    </span>
+                    <span></span>
+                    <span></span>
+                  </span>
+                  <% } %>
+                  <% } %>
+                  <span class="app-component-text07">
+                    <span>wishlist date:</span>
+                    <span class="app-component-text09"><%= wishlist[0].createdAt.toDateString() %></span>
+                  </span>
+                  
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="bookcart-view-all-button button"
+                >
+                Borrow book
+              </button>
+              </form>
+
+              <% } %>
+             <% } %>
+             <% if (idk != "yes") { %>
+              <% } %>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <!-- footer -->
+        <%- include('layouts/footer'); -%>
+      </div>
+    </div>
+  </body>
+  <!-- Script -->
+  <%- include('layouts/script'); -%>
+</html>

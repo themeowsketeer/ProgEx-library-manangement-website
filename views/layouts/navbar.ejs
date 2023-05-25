@@ -1,0 +1,49 @@
+<div id="MainNav" class="home-nav-bar">
+  <div class="home-container01">
+    <a href="/index" class="home-navlink">
+      <img alt="VGULogo11954" src="/playground_assets/vgulogo11954-887-200h.png" class="home-vg-logo1" />
+    </a>
+
+    <div class="home-navbutton">
+      <a href="/index" class="home-navlink1">
+        <h2 class="home-text">
+          <span>Home</span>
+          <span></span>
+        </h2>
+      </a>
+      <a href="/contact" class="home-navlink2">
+        <h2 class="home-text003"><span>Contact</span></h2>
+      </a>
+      <a href="/about" class="home-navlink3">
+        <h2 class="home-text005">About</h2>
+      </a>
+    </div>
+    <a href="/searchFilterBook" class="home-navlink4">
+      <img alt="magnifyingglass11955" src="/playground_assets/magnifyingglass11955-xoij-200h.png"
+        class="home-magnifyingglass1" />
+    </a>
+    <% if(!loggedIn && !loggedInAdmin) { %>
+    <div class = "dropdown" >
+      <button class="home-navlink5 button" onclick="dropdown_1()">LOGIN</button>
+      <div class = "dropdown-content_1" id ="myDropdown_1"  >
+        <a href="/auth/login">as User</a>
+        <a href="/auth/loginAdmin">as Admin</a>
+      </div>
+    </div>
+    <%  } %>
+    <% if(loggedIn && !loggedInAdmin) { %>
+    <a  href="/user_profile" class="home-navlink5 button">Hi <%= user1 %></a>
+      <%  } %>
+    <% if(!loggedIn && loggedInAdmin) { %>
+    <div class = "dropdown" >
+      <button class="home-navlink5_1 button" onclick="dropdown_2()">Admin</button>
+      <div class = "dropdown-content_2" id="myDropdown_2" >
+        <a href="/adminDashboard">To Dashboard</a>
+        <a href="/auth/logout">Log out</a>
+      </div>
+    </div>
+    <% } %>
+  </div>
+</div>
+
+

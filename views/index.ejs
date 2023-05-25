@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="english">
+ 
+    <%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="./css/style.css" rel="stylesheet" />
+      
+      <div class="home-container">
+        <div class="home-home">
+          <!--navbar-->
+          <%- include('layouts/navbar'); -%>
+          <!--header-->
+          <div class="home-header">
+            <h1 class="home-text006">
+              <span class="home-text007">WELCOME TO&nbsp;</span>
+              <span class="home-text008">VGU LIBRARY</span>
+            </h1>
+            <div class="home-search-bar">
+              <a
+                href=""
+                class="home-add-to-cart-button button"
+              >
+                OneSEARCH
+              </a>
+              <input
+                type="text"
+                placeholder="All resources in a single search"
+                id="search-box"
+                onkeyup="sendData(this)"
+                class="home-search-bar1 input"
+              />
+              <section id="searchResults">
+
+              </section> 
+              
+
+             
+            </div>
+          </div>
+          <main class="home-main-content">
+            <div class="home-bookofthe-week-section">
+              <div class="home-info">
+                <h2 class="home-text009"><span>BOOK OF THE WEEK</span></h2>
+                <h1 class="home-text011">
+                <% if (idk1 !="idk" ) { %>
+                  <span>
+                    <span><%= book[0].title %></span>
+                  </span>
+                </h1>
+                <h2 class="home-text016"><span><%= book[0].author %></span></h2>
+                <p class="home-text018">
+                  <span>
+                    <%= book[0].synopsis %>
+                  </span>
+                </p>  
+                <% } %>
+                <% if (idk1 =="idk" ) { %>
+                  <span>
+                    <span>no book</span>
+                  </span>
+                </h1>
+                <h2 class="home-text016"><span>no book</span></h2>
+                <p class="home-text018">
+                  <span>
+                    Listed as one of the essential 50 books of all time in The
+                    Guardian, this classic biography of the founder of computer
+                    science, reissued on the centenary of his birth with a
+                    substantial new preface by the author, is the definitive
+                    account of an extraordinary mind and life.
+                  </span>
+                </p>
+                <% } %>
+                <div class="home-container02">
+                  <% var h = 0 ; %> 
+                  <% if (loggedIn ) {%>
+                    <% if (idk=="yes" ) { %>
+                      <% if ( a.length == 0 ) { %>
+                        <form action="/users/wishlist" method="POST">
+                          <input
+                        type="hidden"
+                        name="userID"
+                        id="userID"
+                        class="book-info-textinput input"
+                        value= <%= loggedIn %>
+                        > 
+
+                        <input
+                        type="hidden"
+                        name="bookID"
+                        id="bookID"
+                        class="book-info-textinput input"
+                        value= <%= book1[0]._id %>
+                        > 
+
+                        <input
+                        type="hidden"
+                        name="bookName"
+                        id="bookName"
+                        class="book-info-textinput input"
+                        value= <%= book1[0].name %>
+                        > 
+
+                        <input
+                        type="hidden"
+                        name="Author"
+                        id="Author"
+                        class="book-info-textinput input"
+                        value= <%= book1[0].author %>
+                        > 
+
+                          <button id="add to cart" type="submit" class="home-add-to-cart-button1 button" id="wishListButtonD">
+                            WISH LIST
+                          </button>
+                        </form>
+                       <% } %>
+
+                      <% if (h < a.length && a[h].bookID.equals(book1[0]._id )) { %>
+                        <% h ++ %>
+                        <form id="wishlistD" method="POST">
+                          <button id="add to cart" type="button" class="home-add-to-cart-button1 button" id="wishListButtonD">
+                           ADDED
+                          </button>
+                        </form>
+                        <% } %>
+                          <% if (h-1 >= 0) { %>
+                          <% if (h-1 < a.length && !a[h-1].bookID.equals(book1[0]._id )) { %>
+                            <form action="/users/wishlist" method="POST">
+                              <input
+                            type="hidden"
+                            name="userID"
+                            id="userID"
+                            class="book-info-textinput input"
+                            value= <%= loggedIn %>
+                            > 
+
+                            <input
+                            type="hidden"
+                            name="bookID"
+                            id="bookID"
+                            class="book-info-textinput input"
+                            value= <%= book1[0]._id %>
+                            > 
+
+                            <input
+                            type="hidden"
+                            name="bookName"
+                            id="bookName"
+                            class="book-info-textinput input"
+                            value= <%= book1[0].name %>
+                            > 
+
+                            <input
+                            type="hidden"
+                            name="Author"
+                            id="Author"
+                            class="book-info-textinput input"
+                            value= <%= book1[0].author %>
+                            > 
+
+                              <button id="add to cart" type="submit" class="home-add-to-cart-button1 button" id="wishListButtonD">
+                                WISH LIST
+                              </button>
+                            </form>
+                            <% } %>
+                            <% } %> 
+
+                            <% if (h-1 < 0) { %>
+                              <% if ( h < a.length && !a[h].bookID.equals(book1[0]._id ))  { %>
+                                <form action="/users/wishlist" method="POST">
+                                  <input
+                                type="hidden"
+                                name="userID"
+                                id="userID"
+                                class="book-info-textinput input"
+                                value= <%= loggedIn %>
+                                > 
+    
+                                <input
+                                type="hidden"
+                                name="bookID"
+                                id="bookID"
+                                class="book-info-textinput input"
+                                value= <%= book1[0]._id %>
+                                > 
+    
+                                <input
+                                type="hidden"
+                                name="bookName"
+                                id="bookName"
+                                class="book-info-textinput input"
+                                value= <%= book1[0].name %>
+                                > 
+    
+                                <input
+                                type="hidden"
+                                name="Author"
+                                id="Author"
+                                class="book-info-textinput input"
+                                value= <%= book1[0].author %>
+                                > 
+    
+                                  <button id="add to cart" type="submit" class="home-add-to-cart-button1 button" id="wishListButtonD">
+                                    WISH LIST
+                                  </button>
+                                </form>
+                              <% } %>
+                              <% } %>
+
+                            <% } %>
+
+                                <% if (idk !="yes" && idk1 != "idk" ) { %>
+                                  <form action="/users/wishlist" method="POST">
+                                    <input
+                                    type="hidden"
+                                    name="userID"
+                                    id="userID"
+                                    class="book-info-textinput input"
+                                    value= <%= loggedIn %>
+                                    > 
+        
+                                    <input
+                                    type="hidden"
+                                    name="bookID"
+                                    id="bookID"
+                                    class="book-info-textinput input"
+                                    value= <%= book1[0]._id %>
+                                    > 
+        
+                                    <input
+                                    type="hidden"
+                                    name="bookName"
+                                    id="bookName"
+                                    class="book-info-textinput input"
+                                    value= <%= book1[0].name %>
+                                    > 
+        
+                                    <input
+                                    type="hidden"
+                                    name="Author"
+                                    id="Author"
+                                    class="book-info-textinput input"
+                                    value= <%= book1[0].author %>
+                                    > 
+                                    <button id="add to cart" type="submit" class="home-add-to-cart-button1 button" id="wishListButtonD">
+                                      WISH LIST
+                                    </button>
+                                  </form>
+                                  <% } %>
+                                    <% } %>
+                                      <% if (!loggedIn ) {%>
+                                        <button id="add to cart" type="submit" class="home-add-to-cart-button1 button"
+                                          id="wishListButtonD">
+                                          WISH LIST
+                                        </button>
+                                        <% } %>
+                  
+                  <% if (idk1 !="idk" ) { %>
+                  <a href="/book-info/<%= book1[0]._id %>" class="home-text020">
+                    <span>View book</span>
+                  </a>
+                  <% } %>
+                  <% if (idk1 =="idk" ) { %>
+                    <a  class="home-text020">
+                      <span>No book</span>
+                    </a>
+                    <% } %>
+                </div>
+              </div>
+              <% if (idk1 != "idk" ) { %>
+              <img
+                src="<%= book[0].coverLink %>"
+                class="home-alan-turingbook1"
+              />
+              <% } else { %>
+              <img
+                alt="AlanTuringbook16046"
+                src="playground_assets/alanturingbook16046-yca6-500w.png"
+                class="home-alan-turingbook1"
+              />
+                <% } %>
+            </div>
+
+            <div class="home-featured-books">
+              <h1 class="home-text022"><span>FEATURED BOOKS</span></h1>
+              <div class="home-slide-container swiper">
+                <div class="home-the-slide-content">
+                  <div class="home-slide-wrapper swiper-wrapper">
+                  <% if (idk1 != "idk" ) { %>  
+                    <% var j = 0 ; %> 
+                 
+                  <% for(var i=0 ; i < book.length; i++) { %>
+                   
+                    <div class="home-book-cards swiper-slide">
+                      <div class="home-book-1">
+                        <% if (!book[i].coverLink) { %>
+                        <img 
+                          alt="Physicscanbefunbook16058" 
+                          src="/playground_assets/physicscanbefunbook16058-w3jj-300h.png"
+                          class="home-physicscanbefunbook1" 
+                        />
+                        <% } else { %>
+                        <img
+                          src="<%= book[i].coverLink %>"
+                          class="home-physicscanbefunbook1"
+                        />
+                        <% } %>
+                        <h2 class="home-text024">
+                          <a href="/book-info/<%= book[i]._id %>">
+                            <span class="home-text025">
+                              <%= book[i].name %>
+                            </span>
+                            <br class="home-text026" />
+                            <span class="home-text027">
+                              <%= book[i].author %>
+                            </span>
+                            <br />
+                          </a>
+                        </h2>
+                        <% if (loggedIn ) {%>
+                          <% if (idk !="yes" && idk1 != "idk" ) { %>
+                            <form action="/users/wishlist" method="POST">
+                              <input type="hidden" name="userID" id="userID" class="book-info-textinput input" value=<%=loggedIn %>
+                              >
+                  
+                              <input type="hidden" name="bookID" id="bookID" class="book-info-textinput input" value=<%=book[i]._id %>
+                              >
+                  
+                              <input type="hidden" name="bookName" id="bookName" class="book-info-textinput input" value=<%=book[i].name
+                                %>
+                              >
+                  
+                              <input type="hidden" name="Author" id="Author" class="book-info-textinput input" value=<%=book[i].author %>
+                              >
+                  
+                              <button type="submit" class="home-button button" id="wishListButton<%= i %>">wishlist</button>
+                            </form>
+                            <% } %>
+                  
+                              <% if (idk=="yes" ) { %>
+                                <% if ( a.length==0 ) { %>
+                                  <form action="/users/wishlist" method="POST">
+                                    <input type="hidden" name="userID" id="userID" class="book-info-textinput input" value=<%=loggedIn %>
+                                    >
+                  
+                                    <input type="hidden" name="bookID" id="bookID" class="book-info-textinput input" value=<%=book[i]._id
+                                      %>
+                                    >
+                  
+                                    <input type="hidden" name="bookName" id="bookName" class="book-info-textinput input"
+                                      value=<%=book[i].name %>
+                                    >
+                  
+                                    <input type="hidden" name="Author" id="Author" class="book-info-textinput input"
+                                      value=<%=book[i].author %>
+                                    >
+                  
+                                    <button type="submit" class="home-button button" id="wishListButton<%= i %>">wishlist</button>
+                                  </form>
+                                  <% } %>
+                  
+                                    <% if ( j < a.length && a[j].bookID.equals(book[i]._id )) { %>
+                                      <% j++ %>
+                                        <form id="wishlist12" method="POST">
+                                          <button type="button" class="home-button button" id="idkanymore">added</button>
+                                        </form>
+                  
+                                        <% } %>
+                                          <% if (j-1>= 0) { %>
+                                            <% if ( j-1 < a.length && !a[j-1].bookID.equals(book[i]._id )) { %>
+                                              <form action="/users/wishlist" method="POST">
+                                                <input type="hidden" name="userID" id="userID" class="book-info-textinput input"
+                                                  value=<%=loggedIn %>
+                                                >
+                  
+                                                <input type="hidden" name="bookID" id="bookID" class="book-info-textinput input"
+                                                  value=<%=book[i]._id %>
+                                                >
+                  
+                                                <input type="hidden" name="bookName" id="bookName" class="book-info-textinput input"
+                                                  value=<%=book[i].name %>
+                                                >
+                  
+                                                <input type="hidden" name="Author" id="Author" class="book-info-textinput input"
+                                                  value=<%=book[i].author %>
+                                                >
+                  
+                                                <button type="submit" class="home-button button"
+                                                  id="wishListButton<%= i %>">wishlist</button>
+                                              </form>
+                  
+                  
+                                              <% } %>
+                                                <% } %>
+                  
+                                                  <% if (j-1 < 0) { %>
+                                                    <% if ( j < a.length && !a[j].bookID.equals(book[i]._id )) { %>
+                                                      <form action="/users/wishlist" method="POST">
+                                                        <input type="hidden" name="userID" id="userID" class="book-info-textinput input"
+                                                          value=<%=loggedIn %>
+                                                        >
+                  
+                                                        <input type="hidden" name="bookID" id="bookID" class="book-info-textinput input"
+                                                          value=<%=book[i]._id %>
+                                                        >
+                  
+                                                        <input type="hidden" name="bookName" id="bookName"
+                                                          class="book-info-textinput input" value=<%=book[i].name %>
+                                                        >
+                  
+                                                        <input type="hidden" name="Author" id="Author" class="book-info-textinput input"
+                                                          value=<%=book[i].author %>
+                                                        >
+                  
+                                                        <button type="submit" class="home-button button"
+                                                          id="wishListButton<%= i %>">wishlist</button>
+                                                      </form>
+                                                      <% } %>
+                                                        <% } %>
+                                                          <% } %>
+
+                                                            <% } %>
+
+                                                              <% if (!loggedIn ) {%>
+                                                                <button type="button" class="home-button button"
+                                                                  id="wishListButton<%= i %>">wishlist</button>
+                                                                <% } %>
+                      </div>
+                    </div>
+                    <% } %>
+                    
+                    <% } %>
+                    <!-- book slider -->
+                  </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="home-service">
+              <h1 class="home-text029"><span>SERVICES</span></h1>
+              <div class="home-container03">
+                <div class="home-room-booking"></div>
+                <div class="home-room-booking1"></div>
+                <div class="home-room-booking2"></div>
+                <div class="home-room-booking3"></div>
+              </div>
+            </div>
+            <div class="home-news-events thing_Orange">
+              <h1 class="home-text031">Event</h1>
+              <div class="home-event-place">
+                <div class="home-container04">
+                  <h1 class="home-text032">
+                    <span>News &amp;</span>
+                    <br />
+                    <span>events</span>
+                  </h1>
+                  <p class="home-text036">
+                    Stay turned for future library events, workshops, and new
+                    updates.
+                  </p>
+                  <button class="home-button1 thing_Rounded button thing_White">
+                    Library blog
+                  </button>
+                </div>
+                <div class="home-event-cards">
+                  <div class="home-container05">
+                    <img
+                      alt="faust16010"
+                      src="playground_assets/faust16010-l64-400w.png"
+                      class="home-faust1"
+                    />
+                    <div class="home-container06 thing_White">
+                      <label class="home-text037">
+                        <span>March 27, 2023</span>
+                      </label>
+                      <span class="home-text039">
+                        <span>Faust: the epitome of German literature</span>
+                      </span>
+                      <label class="home-text041">
+                        <span>
+                          A seminar by DAAD during Vietnam - Germany friendship
+                          week on Johann Wolfgang von Goethe - the greatest
+                          German writer in history, and his classic tragedy
+                          “Faust”.
+                        </span>
+                      </label>
+                      <span class="home-text043"><span>Read more</span></span>
+                    </div>
+                  </div>
+                  <div class="home-container07">
+                    <img
+                      alt="ostern17333"
+                      src="playground_assets/ostern17333-dw7l-400w.png"
+                      class="home-ostern1"
+                    />
+                    <div class="home-container08 thing_White">
+                      <label class="home-text045">
+                        <span>April 4, 2023</span>
+                      </label>
+                      <label class="home-text047">
+                        <span>
+                          Easter Workshop - Egg decorating &amp; more!
+                        </span>
+                      </label>
+                      <label class="home-text049">
+                        <span>
+                          Joint organized by VGU Library, VGU Deutsch Club and
+                          VGU Buddy Program, a lovely workshop about Easter is
+                          open for everyone. Many Easter eggs to be found!
+                        </span>
+                      </label>
+                      <span class="home-text051"><span>Read more</span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-research thing_White">
+              <h1 class="home-text053"><span>RESEARCH</span></h1>
+              <div class="home-container09">
+                <img
+                  alt="statista16092"
+                  src="playground_assets/statista16092-wq4e-200h.png"
+                  class="home-statista1"
+                />
+                <img
+                  alt="proquest16093"
+                  src="playground_assets/proquest16093-d6v-200h.png"
+                  class="home-proquest1"
+                />
+                <img
+                  alt="galeresearch16094"
+                  src="playground_assets/galeresearch16094-zk6d-200h.png"
+                  class="home-galeresearch1"
+                />
+                <img
+                  alt="springerprofessional16095"
+                  src="playground_assets/springerprofessional16095-c2j8-200h.png"
+                  class="home-springerprofessional1"
+                />
+              </div>
+            </div>
+            <div class="home-container10">
+              <div class="home-container11">
+                <div class="home-container12">
+                  <div class="home-text055">
+                    <span class="home-text056">
+                      <span>SUBSCRIBE TO OUR NEWSLETTER</span>
+                    </span>
+                    <span class="home-text058">
+                      For future updates, news &amp; events, book arrivals, and
+                      many more!
+                    </span>
+                  </div>
+                  <div class="home-enter-email">
+                    <input
+                      type="text"
+                      placeholder="enter your email"
+                      class="home-textinput input"
+                    />
+                    <button type="submit" class="home-button2 button">
+                      <h2 class="home-text059">
+                        <span class="home-text060">Send</span>
+                        <br class="home-text061" />
+                      </h2>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+          <!--footer-->
+          <%- include('layouts/footer'); -%>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <!--Script-->
+  <%- include('layouts/script'); -%>
+  <script>
+    function sendData(e){
+      const searchResults = document.getElementById('searchResults')
+      console.log(searchResults)
+      let match = e.value.match(/^[a-zA-Z ]*/);
+      let match2 = e.value.match(/\s*/);
+      if(match2[0] === e.value){
+        searchResults.innerHTML = '';
+        return;
+      }
+      if(match[0] === e.value){
+        fetch('getBooks',{
+        method:'POST',
+        headers: {'Content-Type':'application/json'},
+        body : JSON.stringify({payload: e.value})
+      }).then(res => res.json()).then(data =>{
+        let payload = data.payload; // payload is an array coontaining the book's title, author and URL link
+        searchResults.innerHTML = '';
+        if(payload.length < 1){
+          searchResults.innerHTML = '<p>Sorry. Nothing Found.</p>';
+          return;
+        }       
+        payload.forEach((item,index)=>{
+          if(index>0) searchResults.innerHTML += '<hr>';
+          searchResults.innerHTML += `<p><a href="/book-info/${item._id}" target="_blank">${item.title}</a></p>`; // displaying the name of the book and its URL when click in
+        });
+       
+      });
+      return;
+      }
+      searchResults.innerHTML = '';
+      
+      
+    }
+  </script>
+  <script>
+  // assuming we have a variable called "results" that contains the search results
+  if (results.length > 0) {
+  document.getElementById("searchResults").classList.add("hasResults");
+    }
+  </script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="/css/style.css" rel="stylesheet" />
+      <link href="/css/dropdown.css" rel="stylesheet" />
+
+      <div class="login-container">
+        <div class="login-login">
+         <!-- navbar -->
+         <%- include('layouts/navbar'); -%>
+          <div class="login-container2">
+            <div class="login-login1">
+              <div class="login-background">
+                <h1 class="login-text06">Login as Admin</h1>
+                <div class="login-input-info">
+                  <form action="/admins/loginAdmin" method="POST" class="login-form">
+                    <div class="login-user-name">
+                      <label for="username" class="login-text07">
+                        Username
+                      </label>
+                      <input
+                        type="text"
+                        id="userName"
+                        name="userName"
+                        class="login-textinput input"
+                      />
+                    </div>
+                    <div class="login-password">
+                      <label for="password" class="login-text08">
+                        Password
+                      </label>
+                      <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="login-textinput1 input"
+                      />
+                    </div>
+                    <button type='submit' class="login-login2 button">Login</button>
+                  </form>
+                </div>
+                <div class="login-forgot-psw-sign-up">
+                  <a href="/reset" class="login-navlink5">
+                    <p class="login-text09"><span>Forgot password?</span></p>
+                  </a>
+                  <a href="/auth/regisAdmin" class="login-text11">
+                    <span>Don’t have an account?</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <%- include('layouts/script'); -%>
+</html>

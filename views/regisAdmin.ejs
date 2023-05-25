@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="/css/style.css" rel="stylesheet" />
+
+      <div class="sign-up-container">
+        <div class="sign-up-sign-up">
+          <!--navbar-->
+          <%- include('layouts/navbar'); -%>
+          <div class="sign-up-container2">
+            <div class="sign-up-form">
+              <div class="sign-up-container3">
+                <div class="sign-up-info-form">
+                  <form
+                action="/admins/regisAdmin"
+                method="POST"
+                enctype="multipart/form-data"
+                class="sign-up-form1"
+              >
+                <h1 class="sign-up-text07">Sign up for Admin</h1>
+                <div class="sign-up-username">
+                    <label for="username" class="sign-up-text10">
+                      User name*
+                    </label>
+                    <input type="text" id="userName" name="userName" class="sign-up-textinput input" />
+                  </div>
+                <div class="sign-up-email">
+                  <label for="sign-up-email" class="sign-up-text09">
+                    Email*
+                  </label>
+                  <input type="text" name="email" id="email" class="sign-up-textinput input" />
+                </div>               
+                <div class="sign-up-password">
+                  <label for="password">
+                    <span class="sign-up-text13">Password</span>
+                    <span>*</span>
+                  </label>
+                  <input type="password" id="password" name="password" class="sign-up-textinput input" />
+                </div>
+                <Button type='submit' class="sign-up-navlink5 button "onClick={handleClick}>Register</Button>              
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <%- include('layouts/script'); -%>
+</html>

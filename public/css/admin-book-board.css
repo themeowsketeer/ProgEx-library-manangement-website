@@ -1,0 +1,2065 @@
+.adminheader-adminheader {
+  width: 1800px;
+  height: 150px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.adminheader-adminheader1 {
+  width: 1800px;
+  height: 150px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-navlink {
+  display: contents;
+}
+.adminheader-dashboardadminbutton {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 10%;
+  padding-top: 0;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-rectangle49 {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-left: 0px;
+  border-color: transparent;
+}
+.adminheader-text {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminheader-navlink1 {
+  display: contents;
+}
+.adminheader-useradminbutton {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 27.5%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-rectangle491 {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-left: 0px;
+  border-color: transparent;
+}
+.adminheader-text2 {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminheader-navlink2 {
+  display: contents;
+}
+.adminheader-bookadminbutton {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 27.5%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  background-color: rgba(219, 129, 45, 1);
+}
+.adminheader-rectangle492 {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  margin-left: 0px;
+  border-color: transparent;
+}
+.adminheader-text4 {
+  color: rgba(255, 255, 255, 1);
+  width: 112px;
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: Bold;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 0px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.adminheader-root-class-name {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name1 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name2 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name3 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+.adminheader-root-class-name4 {
+  top: 90px;
+  left: 0px;
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+}
+
+.admin-book-board-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* overflow: auto; */
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.admin-book-board-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-book-board-nav-bar {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-container02 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-book-board-navlink {
+  display: contents;
+}
+.admin-book-board-vg-logo1 {
+  width: 161px;
+  cursor: pointer;
+  height: 46px;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 40%;
+  text-decoration: none;
+}
+.admin-book-board-navbutton {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 5%;
+  flex-direction: row;
+}
+.admin-book-board-navlink1 {
+  display: contents;
+}
+.admin-book-board-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.admin-book-board-navlink2 {
+  display: contents;
+}
+.admin-book-board-text003 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.admin-book-board-navlink3 {
+  display: contents;
+}
+.admin-book-board-text005 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.admin-book-board-navlink4 {
+  display: contents;
+}
+.admin-book-board-magnifyingglass1 {
+  width: 33px;
+  cursor: pointer;
+  height: 29px;
+  display: flex;
+  align-self: center;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 2%;
+  align-content: center;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.admin-book-board-add-new-book-button {
+  color: rgb(255, 255, 255);
+  width: 208px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(219, 129, 45);
+}
+.admin-book-board-add-new-book-button:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-add-new-book-button:active {
+  background-color: #af5d05;
+}
+.admin-book-board-searchbar {
+  width: 750px;
+  height: 75px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 3%;
+  align-items: center;
+  flex-shrink: 1;
+  margin-left: 35%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-magnifyingglass2 {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border-color: transparent;
+}
+.admin-book-board-add-new-user-button {
+  color: rgb(255, 255, 255);
+  width: 250px;
+  /* height: 35px; */
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: -17%;
+  border-width: 0px;
+  border-radius: 9px;
+  text-transform: capitalize;
+  background-color: rgb(219, 129, 45);
+}
+.admin-book-board-add-new-user-button:hover {
+  box-shadow: 5px 5px 10px 0px #aaa8a8;
+}
+.admin-book-board-add-new-user-button:active {
+  background-color: #985010;
+}
+.admin-book-board-adminuserboard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: flex-start;
+  margin-bottom: 3%;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.admin-book-board-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.admin-book-board-newusertable {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.admin-book-board-container04 {
+  flex: 0 0 auto;
+  width: 94px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.admin-book-board-container05 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-maxwidth);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-book-board-container06 {
+  flex: 0 0 auto;
+  width: 1400px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-book-board-text006 {
+  color: rgba(115, 117, 117, 1);
+  width: 40px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text008 {
+  color: rgb(115, 117, 117);
+  width: 100px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text009 {
+  color: rgb(115, 117, 117);
+  width: 80px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 16%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text010 {
+  color: rgb(115, 117, 117);
+  width: 40px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 3.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text011 {
+  color: rgb(115, 117, 117);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 7%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text012 {
+  color: rgb(115, 117, 117);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 3%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text013 {
+  color: rgb(115, 117, 117);
+  width: 70px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text014 {
+  color: rgb(115, 117, 117);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-book-info {
+  width: 1400px;
+  height: 81px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-image {
+  width: 42px;
+  height: 42px;
+  align-self: center;
+  object-fit: cover;
+}
+.admin-book-board-text015 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text016 {
+  color: rgb(0, 0, 0);
+  width: 325px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.admin-book-board-text017 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.25%;
+  font-stretch: normal;
+}
+.admin-book-board-text018 {
+  color: rgb(0, 0, 0);
+  width: 80px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text019 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text020 {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text023 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text026 {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-draw1 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 3%;
+  border-color: transparent;
+}
+.admin-book-board-trashcan1 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 1%;
+  border-color: transparent;
+}
+.admin-book-board-image01 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 3%;
+}
+.admin-book-board-borrower-info {
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  margin-left: 70%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-book-board-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-book-board-full-name {
+  color: rgb(0, 0, 0);
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text027 {
+  font-weight: 700;
+}
+.admin-book-board-text029 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-user-id {
+  color: rgb(0, 0, 0);
+  width: 130px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3.5%;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text030 {
+  font-weight: 700;
+}
+.admin-book-board-text032 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-book-board-issued-date {
+  color: rgb(0, 0, 0);
+  width: 230px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text033 {
+  font-weight: 700;
+}
+.admin-book-board-text035 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-return-date {
+  color: rgb(0, 0, 0);
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  padding-left: 5%;
+  text-decoration: none;
+}
+.admin-book-board-text036 {
+  font-weight: 700;
+}
+.admin-book-board-text038 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-overdue {
+  width: 150px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text039 {
+  color: #000000;
+}
+.admin-book-board-text040 {
+  color: #ff0000;
+}
+.admin-book-board-borrower-info1 {
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 15%;
+  align-items: flex-start;
+  margin-left: 70%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-book-board-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-book-board-full-name1 {
+  color: rgb(0, 0, 0);
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text041 {
+  font-weight: 700;
+}
+.admin-book-board-text043 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-user-id1 {
+  color: rgb(0, 0, 0);
+  width: 130px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3.5%;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text044 {
+  font-weight: 700;
+}
+.admin-book-board-text046 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.admin-book-board-issued-date1 {
+  color: rgb(0, 0, 0);
+  width: 230px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text047 {
+  font-weight: 700;
+}
+.admin-book-board-text049 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-return-date1 {
+  color: rgb(0, 0, 0);
+  width: 250px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  padding-left: 5%;
+  text-decoration: none;
+}
+.admin-book-board-text050 {
+  font-weight: 700;
+}
+.admin-book-board-text052 {
+  font-style: normal;
+  font-weight: 500;
+}
+.admin-book-board-overdue1 {
+  width: 150px;
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text053 {
+  color: #000000;
+}
+.admin-book-board-text054 {
+  color: #ff0002;
+}
+.admin-book-board-book-info1 {
+  width: 1400px;
+  height: 81px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-image02 {
+  width: 42px;
+  height: 42px;
+  align-self: center;
+  object-fit: cover;
+}
+.admin-book-board-text055 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text056 {
+  color: rgb(0, 0, 0);
+  width: 325px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.admin-book-board-text057 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.25%;
+  font-stretch: normal;
+}
+.admin-book-board-text058 {
+  color: rgb(0, 0, 0);
+  width: 80px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text059 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text060 {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text063 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text066 {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-draw11 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 3%;
+  border-color: transparent;
+}
+.admin-book-board-trashcan11 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 1%;
+  border-color: transparent;
+}
+.admin-book-board-image03 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 3%;
+}
+.admin-book-board-book-info2 {
+  width: 1400px;
+  height: 81px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-image04 {
+  width: 42px;
+  height: 42px;
+  align-self: center;
+  object-fit: cover;
+}
+.admin-book-board-text067 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text068 {
+  color: rgb(0, 0, 0);
+  width: 325px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.admin-book-board-text069 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.25%;
+  font-stretch: normal;
+}
+.admin-book-board-text070 {
+  color: rgb(0, 0, 0);
+  width: 80px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text071 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text072 {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text075 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text078 {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-draw12 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 3%;
+  border-color: transparent;
+}
+.admin-book-board-trashcan12 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 1%;
+  border-color: transparent;
+}
+.admin-book-board-image05 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 3%;
+}
+.admin-book-board-book-info3 {
+  width: 1400px;
+  height: 81px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-image06 {
+  width: 42px;
+  height: 42px;
+  align-self: center;
+  object-fit: cover;
+}
+.admin-book-board-text079 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text080 {
+  color: rgb(0, 0, 0);
+  width: 325px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.admin-book-board-text081 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.25%;
+  font-stretch: normal;
+}
+.admin-book-board-text082 {
+  color: rgb(0, 0, 0);
+  width: 80px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text083 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text084 {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text087 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text090 {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-draw13 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 3%;
+  border-color: transparent;
+}
+.admin-book-board-trashcan13 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 1%;
+  border-color: transparent;
+}
+.admin-book-board-image07 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 3%;
+}
+.admin-book-board-book-info4 {
+  width: 1400px;
+  height: 81px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.admin-book-board-image08 {
+  width: 42px;
+  height: 42px;
+  align-self: center;
+  object-fit: cover;
+}
+.admin-book-board-text091 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text092 {
+  color: rgb(0, 0, 0);
+  width: 325px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.admin-book-board-text093 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 22px;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 0.25%;
+  font-stretch: normal;
+}
+.admin-book-board-text094 {
+  color: rgb(0, 0, 0);
+  width: 80px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text095 {
+  color: rgb(0, 0, 0);
+  width: 120px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 4%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text096 {
+  color: rgb(0, 0, 0);
+  width: 110px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text099 {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2.5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text102 {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: auto;
+  font-size: 20px;
+  align-self: center;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-draw14 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 3%;
+  border-color: transparent;
+}
+.admin-book-board-trashcan14 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  margin-left: 1%;
+  border-color: transparent;
+}
+.admin-book-board-image09 {
+  width: 28px;
+  height: 28px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 3%;
+}
+.admin-book-board-pagenumber {
+  width: 289px;
+  height: 39px;
+  display: flex;
+  padding: 0;
+  align-self: flex-end;
+  box-sizing: border-box;
+  margin-top: 3%;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 35%;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
+.admin-book-board-downarrow1 {
+  width: 30px;
+  height: 30px;
+  border-color: transparent;
+}
+.admin-book-board-text103 {
+  color: rgba(115, 117, 117, 1);
+  width: 9px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text104 {
+  color: rgba(219, 129, 45, 1);
+  width: 19px;
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text105 {
+  color: rgba(115, 117, 117, 1);
+  width: 14px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text106 {
+  color: rgba(115, 117, 117, 1);
+  width: 17px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text108 {
+  color: rgba(115, 117, 117, 1);
+  width: 25px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-downarrow2 {
+  width: 30px;
+  height: 30px;
+  margin-left: 5%;
+  border-color: transparent;
+}
+.admin-book-board-rectangle50 {
+  width: 15px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  border-color: transparent;
+  border-radius: 10px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/rectangle503521-f0vp-200w.png");
+  background-position: center;
+}
+.admin-book-board-rectangle51 {
+  width: 15px;
+  height: 200px;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.admin-book-board-footer {
+  width: 100%;
+  height: 213px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: flex-end;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  background-image: url("public/playground_assets/rectangle247216-8dmo-300h.png");
+}
+.admin-book-board-container11 {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.admin-book-board-container12 {
+  flex: 0 0 auto;
+  width: 383px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.admin-book-board-v-ulogofullwhite1 {
+  width: 255px;
+  height: 72px;
+  border-color: transparent;
+}
+.admin-book-board-text110 {
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-text117 {
+  color: rgb(255, 255, 255);
+  width: 347px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-book-board-navbutton1 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  flex-direction: row;
+}
+.admin-book-board-home {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.admin-book-board-navlink5 {
+  display: contents;
+}
+.admin-book-board-text118 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.admin-book-board-text121 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.admin-book-board-contact {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.admin-book-board-navlink6 {
+  display: contents;
+}
+.admin-book-board-text135 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.admin-book-board-text136 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.admin-book-board-about {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: column;
+}
+.admin-book-board-navlink7 {
+  display: contents;
+}
+.admin-book-board-text146 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.admin-book-board-text147 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+@media(max-width: 1200px) {
+  .admin-book-board-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .admin-book-board-navbutton {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .admin-book-board-text {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .admin-book-board-text003 {
+    top: 4.00390625px;
+    right: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .admin-book-board-text005 {
+    top: 2.01171875px;
+    color: rgb(115, 117, 117);
+    width: auto;
+    position: static;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+  }
+  .admin-book-board-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+  .admin-book-board-navbutton1 {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .admin-book-board-text118 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .admin-book-board-text135 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .admin-book-board-text146 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}

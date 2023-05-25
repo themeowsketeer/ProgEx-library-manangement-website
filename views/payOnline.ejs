@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="english">
+    
+    <%- include('layouts/header'); -%>
+
+        <body>
+            <div>
+                <link href="/css/payOnline.css" rel="stylesheet" />
+                    <div class="pay-due-fee-online-container">
+                        <div class="pay-due-fee-online-onlinepaymentoverdue">
+                            <div class="pay-due-fee-online-container01">
+                                <%- include('layouts/navbar'); -%>
+                                <span class="pay-due-fee-online-text06">
+                                    <span>Pay overdue fee with online banking</span>
+                                </span>
+                                <div class="pay-due-fee-online-container03">
+                                    <% if (book.coverLink) {%>
+                                    <img
+                                        alt="AlanTuringbook28573"
+                                        src="<%= book.coverLink %>"
+                                        class="pay-due-fee-online-alan-turingbook2"
+                                    />
+                                    <%} else {%> 
+                                    <img
+                                        alt="AlanTuringbook28573"
+                                        src="/playground_assets/alanturingbook28573-m3wl-500h.png"
+                                        class="pay-due-fee-online-alan-turingbook2"
+                                    />
+                                    <%} %>
+                                    <div class="pay-due-fee-online-container04">
+                                        <span class="pay-due-fee-online-text08">
+                                            <span class="pay-due-fee-online-text09">Book name: </span>
+                                            <span></span>
+                                            <span class="pay-due-fee-online-text11"><%= book.title %></span>
+                                        </span>
+                                        <span class="pay-due-fee-online-text12">
+                                            <span class="pay-due-fee-online-text13">Issued date: </span>
+                                            <span></span>
+                                            <span class="pay-due-fee-online-text15"><%= record.leaseDate.toDateString() %></span>
+                                        </span>
+                                        <span class="pay-due-fee-online-text16">
+                                            <span class="pay-due-fee-online-text17">Due date: </span>
+                                            <span></span>
+                                            <span class="pay-due-fee-online-text19"><%= record.dueDate.toDateString() %></span>
+                                        </span>
+                                        <span class="pay-due-fee-online-text24">
+                                            <span class="pay-due-fee-online-text25">Total fee: </span>
+                                            <span></span>
+                                            <span class="pay-due-fee-online-text27"><%= record.paymentAmount %>.000 VND</span>
+                                        </span>
+                                        <span class="pay-due-fee-online-text28">
+                                            <span class="pay-due-fee-online-text29">Attention: </span>
+                                            <span> If you don’t pay this fee, you aren’t allowed to borrow the next book.</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="pay-due-fee-online-container05">
+                                    <span class="pay-due-fee-online-text31">Please choose your payment method below.</span>
+                                    <span class="pay-due-fee-online-text32">Payment with Digital Wallets</span>
+                                    <img
+                                    alt="Rectangle248514"
+                                    src="/playground_assets/rectangle248514-15l8-200h.png"
+                                    class="pay-due-fee-online-orange-background-1"
+                                    />
+                                    <div class="pay-due-fee-online-container06">
+                                        <a
+                                            href="/payWaiting/<%= record._id %>"
+                                            class="pay-due-fee-online-navlink06"
+                                        >
+                                            <img
+                                            alt="image98514"
+                                            src="/playground_assets/image98514-w4i9-200h.png"
+                                            class="pay-due-fee-online-momo"
+                                            />
+                                        </a>
+                                        <a
+                                            href="/payWaiting/<%= record._id %>"
+                                            class="pay-due-fee-online-navlink07"
+                                        >
+                                            <img
+                                            alt="image108514"
+                                            src="/playground_assets/image108514-02h8-200h.png"
+                                            class="pay-due-fee-online-zalo-pay"
+                                            />
+                                        </a>
+                                        <a
+                                            href="/payWaiting/<%= record._id %>"
+                                            class="pay-due-fee-online-navlink08"
+                                        >
+                                            <img
+                                            alt="image118514"
+                                            src="/playground_assets/image118514-jtv-200h.png"
+                                            class="pay-due-fee-online-paypal"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pay-due-fee-online-container07">
+                                    <span class="pay-due-fee-online-text33">
+                                    <span>Payment with National Banks</span>
+                                    </span>
+                                    <img
+                                    alt="Rectangle258514"
+                                    src="/playground_assets/rectangle258514-0hde-200h.png"
+                                    class="pay-due-fee-online-orange-background-2"
+                                    />
+                                    <div class="pay-due-fee-online-container08">
+                                        <a
+                                            href="/payWaiting/<%= record._id %>"
+                                            class="pay-due-fee-online-navlink09"
+                                        >
+                                            <img
+                                            alt="image128514"
+                                            src="/playground_assets/image128514-od6-200h.png"
+                                            class="pay-due-fee-online-vietcombank"
+                                            />
+                                        </a>
+                                        <a
+                                            href="/payWaiting/<%= record._id %>"
+                                            class="pay-due-fee-online-navlink10"
+                                        >
+                                            <img
+                                            alt="image138515"
+                                            src="/playground_assets/image138515-tg3p-200h.png"
+                                            class="pay-due-fee-online-techcombank"
+                                            />
+                                        </a>
+                                        <a
+                                            href="/payWaiting/<%= record._id %>"
+                                            class="pay-due-fee-online-navlink11"
+                                        >
+                                            <img
+                                            alt="image148515"
+                                            src="/playground_assets/image148515-2ffc-200h.png"
+                                            class="pay-due-fee-online-vietinbank"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="pay-due-fee-online-container09">
+                                    <span class="pay-due-fee-online-text35">
+                                    <span>Payment with International Cards</span></span>
+                                    <img
+                                    alt="Rectangle38596"
+                                    src="/playground_assets/rectangle38596-axfj-1300w.png"
+                                    class="pay-due-fee-online-orange-background-3"
+                                    />
+                                    <span class="pay-due-fee-online-text37">
+                                    <span>Name on Card</span>
+                                    </span>
+                                        <input type="text" class="pay-due-fee-online-textinput input" />
+                                    <span class="pay-due-fee-online-text39">
+                                    <span>Credit card number</span>
+                                    </span>
+                                        <input type="text" class="pay-due-fee-online-textinput1 input" />
+                                    <span class="pay-due-fee-online-text41">
+                                    <span>Exp Month/Year</span>
+                                    </span>
+                                        <input type="text" class="pay-due-fee-online-textinput2 input" />
+                                    <span class="pay-due-fee-online-text43"><span>CVV</span></span>
+                                        <input type="text" class="pay-due-fee-online-textinput3 input" />
+                                    <a
+                                    href="/payWaiting/<%= record._id %>"
+                                    class="pay-due-fee-online-navlink12 button"
+                                    > Pay
+                                    </a>
+                                </div>
+                                <!--footer-->
+                                <%- include('layouts/footer'); -%>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--Script-->
+            <%- include('layouts/script'); -%>        
+        </body>
+</html>

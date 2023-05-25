@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="english">
+    <%- include('layouts/header'); -%>
+  <body>
+    <div>
+      <link href="/css/admin-add-user.css" rel="stylesheet" />
+
+      <div class="add-user-container">
+        <div class="add-user-header">
+            <%- include('layouts/navbar'); -%>
+            <%- include('layouts/adminheader'); -%>
+        </div>
+        <div class="add-user-container2">
+          <h1 class="add-user-text06">User Info</h1>
+          <form action="/admin/storeUser" method="POST" class="add-user-form">
+            <label for="avatar" class = "add-user-text07">
+              Avatar:
+              <img
+              alt="image5884"
+              class="userprofilesetting-image5"
+              src="<%= detailedUser.iconLink %>"
+              />
+            </label>
+            <div class="add-user-full-name">
+              <label for="fullName" class="add-user-text07">
+                Full Name: <%= detailedUser.userInfo.FName %> <%= detailedUser.userInfo.LName %>
+              </label>
+            </div>
+            <div class="add-user-username">
+              <label for="userName" class="add-user-text08">
+                Username: <%= detailedUser.username %>
+              </label>
+            </div>
+            <div class="add-user-username">
+              <label for="userid" class="add-user-text08">
+                User ID: <%= detailedUser._id %>
+              </label>
+            </div>
+            <div class="add-user-edition">
+              <label for="Age" class="add-user-text09">
+                Age: <%= detailedUser.userInfo.age %>
+              </label>
+            </div>
+            <div class="add-user-pub-year">
+              <label for="Email" class="add-user-text10">
+                Email: <%= detailedUser.email %>
+              </label>
+            </div>
+            <div class="add-user-pub-year">
+              <label for="Borrowed" class="add-user-text10">
+                Book Borrowed: <%= detailedUser.booksBorrowing.length %>
+              </label>
+            </div>
+            <% for (var i = 0; i < detailedUser.booksBorrowing.length; i ++) { %> 
+            <div class="add-user-background">
+              <label for="Book Borrowed" class="add-user-text10">
+                Book Number <%= i+1 %>
+              </label>
+              <div class="add-user-pub-year">
+                <label for="Book Borrowed" class="add-user-text10">
+                  Book's Title: <%= detailedUser.booksBorrowing[i].bookName %>
+                </label>
+              </div>
+              <div class="add-user-pub-year">
+                <label for="Book Borrowed" class="add-user-text10">
+                  Book's ID: <%= detailedUser.booksBorrowing[i].bookID %>
+                </label>
+              </div>
+              <div class="add-user-pub-year">
+                <label for="Book Borrowed" class="add-user-text10">
+                  Record's ID: <%= detailedUser.booksBorrowing[i].borrowID %>
+                </label>
+              </div>
+              <div class="add-user-pub-year">
+                <label for="Book Borrowed" class="add-user-text10">
+                  Borrow Due Date: <%= detailedUser.booksBorrowing[i].dueDate.toDateString() %>
+                </label>
+              </div>
+            </div>
+            <% } %>
+            <div class="add-user-pub-year">
+              <label for="Email" class="add-user-text10">
+                Date Created: <%= detailedUser.createdAt.toDateString() %>
+              </label>
+            </div>
+          </form>
+        </div>
+        <%- include('layouts/footer'); -%>
+      </div>
+    </div>
+  </body>
+</html>

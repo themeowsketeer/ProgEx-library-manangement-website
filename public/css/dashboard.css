@@ -1,0 +1,2817 @@
+.adminheader-adminheader {
+    width: 1800px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .adminheader-adminheader1 {
+    width: 1800px;
+    height: 150px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-navlink {
+    display: contents;
+  }
+  .adminheader-dashboardadminbutton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 10%;
+    padding-top: 0;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-rectangle49 {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 0px;
+    border-color: transparent;
+  }
+  .adminheader-text {
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: Bold;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .adminheader-navlink1 {
+    display: contents;
+  }
+  .adminheader-useradminbutton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 27.5%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-rectangle491 {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 0px;
+    border-color: transparent;
+  }
+  .adminheader-text2 {
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: Bold;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .adminheader-navlink2 {
+    display: contents;
+  }
+  .adminheader-bookadminbutton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 27.5%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-rectangle492 {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 0px;
+    border-color: transparent;
+  }
+  .adminheader-text4 {
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: Bold;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .adminheader-root-class-name {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name1 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name2 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name3 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name4 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  
+  .admin-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .admin-container01 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .admin-nav-bar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-container02 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .admin-navlink {
+    display: contents;
+  }
+  .admin-vg-logo1 {
+    width: 161px;
+    cursor: pointer;
+    height: 46px;
+    margin-left: 2%;
+    border-color: transparent;
+    margin-right: 40%;
+    text-decoration: none;
+  }
+  .admin-navbutton {
+    width: auto;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-right: 5%;
+    flex-direction: row;
+  }
+  .admin-navlink1 {
+    display: contents;
+  }
+  .admin-text {
+    color: rgb(115, 117, 117);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .admin-navlink2 {
+    display: contents;
+  }
+  .admin-text003 {
+    color: rgba(115, 117, 117, 1);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .admin-navlink3 {
+    display: contents;
+  }
+  .admin-text005 {
+    color: rgb(115, 117, 117);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .admin-navlink4 {
+    display: contents;
+  }
+  .admin-magnifyingglass1 {
+    width: 33px;
+    cursor: pointer;
+    height: 29px;
+    display: flex;
+    align-self: center;
+    margin-left: 2%;
+    border-color: transparent;
+    margin-right: 2%;
+    align-content: center;
+    flex-direction: initial;
+    text-decoration: none;
+  }
+  .admin-navlink5 {
+    color: rgb(255, 255, 255);
+    width: 208px;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 2%;
+    border-width: 0px;
+    margin-right: 2%;
+    text-decoration: none;
+    background-color: rgb(219, 129, 45);
+  }
+  .admin-navlink5:hover {
+    width: 181px;
+    height: 39px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .admin-navlink5:active {
+    background-color: #af5d05;
+  }
+  .admin-number-tab {
+    flex: 0 0 auto;
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: 7%;
+    justify-content: undefined;
+  }
+  .admin-totalusers {
+    width: 316px;
+    height: 109px;
+    display: flex;
+    padding: 0;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-top: 50px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 10%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-group1 {
+    width: 74px;
+    height: 74px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-container03 {
+    flex: 0 0 auto;
+    width: 209px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .admin-text006 {
+    color: rgba(219, 129, 45, 1);
+    width: 200px;
+    height: auto;
+    font-size: 24px;
+    align-self: flex-start;
+    font-style: Bold;
+    margin-top: 20px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text008 {
+    color: rgba(0, 0, 0, 1);
+    width: 209px;
+    height: auto;
+    font-size: 32px;
+    align-self: flex-end;
+    font-style: Bold;
+    margin-top: 0px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  .admin-totalbooks {
+    width: 316px;
+    height: 109px;
+    display: flex;
+    padding: 0;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-top: 50px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 20%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image {
+    width: 100px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-container04 {
+    flex: 0 0 auto;
+    width: 209px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .admin-text010 {
+    color: rgb(219, 129, 45);
+    width: 200px;
+    height: auto;
+    font-size: 24px;
+    align-self: flex-start;
+    font-style: Bold;
+    margin-top: 20px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text011 {
+    color: rgba(0, 0, 0, 1);
+    width: 209px;
+    height: auto;
+    font-size: 32px;
+    align-self: flex-end;
+    font-style: Bold;
+    margin-top: 0px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  .admin-issued {
+    width: 316px;
+    height: 109px;
+    display: flex;
+    padding: 0;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-top: 50px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 20%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image1 {
+    width: 100px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-container05 {
+    flex: 0 0 auto;
+    width: 209px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+    flex-direction: column;
+  }
+  .admin-text013 {
+    color: rgb(219, 129, 45);
+    width: 200px;
+    height: auto;
+    font-size: 24px;
+    align-self: flex-start;
+    font-style: Bold;
+    margin-top: 20px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text014 {
+    color: rgba(0, 0, 0, 1);
+    width: 209px;
+    height: auto;
+    font-size: 32px;
+    align-self: flex-end;
+    font-style: Bold;
+    margin-top: 0px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  .admin-admindashboard {
+    width: auto;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin--bchartscolumn-chats {
+    width: 1285px;
+    height: 652.0001220703125px;
+    display: flex;
+    padding: 0;
+    align-self: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 8%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-horizontal-lines {
+    top: 88.09493255615234px;
+    left: 31px;
+    width: 1254px;
+    height: 544.194580078125px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-line1 {
+    top: 544.194580078125px;
+    left: 0px;
+    width: 1254px;
+    height: 0px;
+    position: absolute;
+  }
+  .admin-line2 {
+    top: 408.14599609375px;
+    left: 0px;
+    width: 1254px;
+    height: 0px;
+    position: absolute;
+  }
+  .admin-line3 {
+    top: 272.0973815917969px;
+    left: 0px;
+    width: 1254px;
+    height: 0px;
+    position: absolute;
+  }
+  .admin-line4 {
+    top: 136.0482940673828px;
+    left: 0px;
+    width: 1254px;
+    height: 0px;
+    position: absolute;
+  }
+  .admin-line5 {
+    top: 0px;
+    left: 0px;
+    width: 1254px;
+    height: 0px;
+    position: absolute;
+  }
+  .admin-vertical-lines {
+    top: 87.61427307128906px;
+    left: 31.5px;
+    width: 1253px;
+    height: 545.1558227539062px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-line11 {
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 545px;
+    position: absolute;
+  }
+  .admin-line21 {
+    top: 0px;
+    left: 417.66650390625px;
+    width: 0px;
+    height: 545px;
+    position: absolute;
+  }
+  .admin-line31 {
+    top: 0px;
+    left: 835.33349609375px;
+    width: 0px;
+    height: 545px;
+    position: absolute;
+  }
+  .admin-line41 {
+    top: 0px;
+    left: 1253px;
+    width: 0px;
+    height: 545px;
+    position: absolute;
+  }
+  .admin-left-text {
+    top: 78px;
+    left: 0px;
+    width: 21px;
+    height: 564.38525390625px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-text016 {
+    top: 544.1943969726562px;
+    left: 10px;
+    color: rgba(51, 51, 51, 1);
+    width: 11px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text017 {
+    top: 408.1457824707031px;
+    color: rgba(51, 51, 51, 1);
+    width: 21px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text019 {
+    top: 272.0971984863281px;
+    color: rgba(51, 51, 51, 1);
+    width: 21px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text021 {
+    top: 136.04808044433594px;
+    color: rgba(51, 51, 51, 1);
+    width: 21px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text023 {
+    color: rgba(51, 51, 51, 1);
+    width: 21px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: right;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-bottom-text {
+    top: 631.8091430664062px;
+    left: 109.75px;
+    width: 1069px;
+    height: 20.190956115722656px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-text025 {
+    color: rgba(51, 51, 51, 1);
+    width: 157px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text027 {
+    left: 342px;
+    color: rgba(51, 51, 51, 1);
+    width: 98px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text029 {
+    left: 662.5px;
+    color: rgba(51, 51, 51, 1);
+    width: 85px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text031 {
+    left: 968px;
+    color: rgba(51, 51, 51, 1);
+    width: 101px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-columns1 {
+    top: 178.47381591796875px;
+    left: 167px;
+    width: 981px;
+    height: 454.2966613769531px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-image11 {
+    top: 254.4058837890625px;
+    left: 0px;
+    width: 40px;
+    height: 200px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 9px;
+  }
+  .admin-image12 {
+    top: 354.35107421875px;
+    left: 314px;
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 9px;
+  }
+  .admin-image13 {
+    top: 281.6636047363281px;
+    left: 627px;
+    width: 40px;
+    height: 173px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 9px;
+  }
+  .admin-image14 {
+    top: 0px;
+    left: 941px;
+    width: 40px;
+    height: 454px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 9px;
+  }
+  .admin-texts1 {
+    top: 141.9384002685547px;
+    left: 170.5px;
+    width: 973px;
+    height: 386.0797119140625px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-text033 {
+    top: 254.4063720703125px;
+    color: rgba(51, 51, 51, 1);
+    width: 32px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text035 {
+    top: 354.35107421875px;
+    left: 314.5px;
+    color: rgba(51, 51, 51, 1);
+    width: 32px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text037 {
+    top: 281.66412353515625px;
+    left: 627.5px;
+    color: rgba(51, 51, 51, 1);
+    width: 32px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text039 {
+    left: 941px;
+    color: rgba(51, 51, 51, 1);
+    width: 32px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text041 {
+    color: rgba(0, 0, 0, 1);
+    width: 420px;
+    height: auto;
+    position: absolute;
+    font-size: 36px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-container06 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .admin-lastactivetable {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-top: 10%;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 8%;
+    padding-top: 0;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding-left: 0;
+    border-radius: 0px 0px 0px 0px;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-container07 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .admin-container08 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .admin-active-user-title {
+    color: rgb(0, 0, 0);
+    width: 420px;
+    height: auto;
+    font-size: 36px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .bookTable {
+    width: 100%;
+  }
+  .admin-table-headers {
+    flex: 0 0 auto;
+    width: 450px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .admin-text043 {
+    color: rgb(115, 117, 117);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 5%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text046 {
+    color: rgb(115, 117, 117);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 5%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 18%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text049 {
+    color: rgba(115, 117, 117, 1);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 5%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 13%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text051 {
+    color: rgb(115, 117, 117);
+    width: 180px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 5%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 9%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-active-user {
+    width: 550px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user11 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-text052 {
+    color: rgb(0, 0, 0);
+    width: 190px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text053 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+  }
+  .admin-text054 {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text055 {
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-active-user1 {
+    width: 550px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user111 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-text056 {
+    color: rgb(0, 0, 0);
+    width: 190px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text057 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+  }
+  .admin-text058 {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text059 {
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-active-user2 {
+    width: 550px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user112 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-text060 {
+    color: rgb(0, 0, 0);
+    width: 190px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text061 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+  }
+  .admin-text062 {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text063 {
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-active-user3 {
+    width: 550px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user113 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-text064 {
+    color: rgb(0, 0, 0);
+    width: 190px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text065 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+  }
+  .admin-text066 {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text067 {
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-active-user4 {
+    width: 550px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user114 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-text068 {
+    color: rgb(0, 0, 0);
+    width: 190px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text069 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+  }
+  .admin-text070 {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text071 {
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-active-user5 {
+    width: 550px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user115 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-text072 {
+    color: rgb(0, 0, 0);
+    width: 190px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text073 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+  }
+  .admin-text074 {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text075 {
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-view-all-button {
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 45px;
+    font-size: 24px;
+    align-self: flex-end;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    transition: 0.3s;
+    font-family: Montserrat;
+    font-weight: 700;
+    border-width: 0px;
+    border-radius: 9px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: rgb(219, 129, 45);
+  }
+  .admin-view-all-button:hover {
+    box-shadow: 5px 5px 10px 0px #aaa8a8;
+  }
+  .admin-view-all-button:active {
+    background-color: #985010;
+  }
+  .admin-newbooktable {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+    margin-top: 10%;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 7%;
+    padding-top: 0;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    padding-left: 0;
+    border-radius: 0px 0px 0px 0px;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-container09 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .admin-container10 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .admin-new-book-title {
+    color: rgb(0, 0, 0);
+    width: 420px;
+    height: auto;
+    font-size: 36px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-table-headers1 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .admin-container11 {
+    flex: 0 0 auto;
+    width: 408px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .admin-text076 {
+    color: rgba(115, 117, 117, 1);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text078 {
+    color: rgba(115, 117, 117, 1);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 21%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text080 {
+    color: rgb(115, 117, 117);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 21%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text083 {
+    color: rgb(115, 117, 117);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text086 {
+    color: rgb(115, 117, 117);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text089 {
+    color: rgb(115, 117, 117);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: flex-start;
+    font-style: Medium;
+    margin-top: 2%;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-new-book {
+    width: 900px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image2 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-text092 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text093 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text094 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text095 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text096 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text097 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-new-book1 {
+    width: 900px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image3 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-text098 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text099 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text100 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text101 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text102 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text103 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-new-book2 {
+    width: 900px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image4 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-text104 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text105 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text106 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text107 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text108 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text109 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-new-book3 {
+    width: 900px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image5 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-text110 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text111 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text112 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text113 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text114 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text115 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-new-book4 {
+    width: 900px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image6 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-text116 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text117 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text118 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text119 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text120 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text121 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-new-book5 {
+    width: 900px;
+    height: 81.75886535644531px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-image7 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    object-fit: cover;
+  }
+  .admin-text122 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-text123 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text124 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text125 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text126 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text127 {
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-view-all-book-button {
+    color: rgb(255, 255, 255);
+    width: 210px;
+    height: 45px;
+    font-size: 24px;
+    align-self: flex-end;
+    font-style: normal;
+    margin-top: var(--dl-space-space-unit);
+    text-align: center;
+    transition: 0.3s;
+    font-family: Montserrat;
+    font-weight: 700;
+    border-width: 0px;
+    border-radius: 9px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: rgb(219, 129, 45);
+  }
+  .admin-view-all-book-button:hover {
+    box-shadow: 5px 5px 10px 0px #aaa8a8;
+  }
+  .admin-view-all-book-button:active {
+    background-color: #985010;
+  }
+  .admin-footer {
+    width: 100%;
+    height: 213px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-size: cover;
+    background-image: url("/playground_assets/rectangle247216-8dmo-300h.png");
+  }
+  .admin-container12 {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .admin-container13 {
+    flex: 0 0 auto;
+    width: 383px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    margin-right: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .admin-v-ulogofullwhite1 {
+    width: 255px;
+    height: 72px;
+    border-color: transparent;
+  }
+  .admin-text128 {
+    color: rgba(255, 255, 255, 1);
+    width: 243px;
+    height: auto;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-text135 {
+    color: rgb(255, 255, 255);
+    width: 347px;
+    height: auto;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-navbutton1 {
+    width: auto;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    flex-direction: row;
+  }
+  .admin-home {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    flex-direction: column;
+  }
+  .admin-navlink6 {
+    display: contents;
+  }
+  .admin-text136 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    line-height: normal;
+    margin-left: 20px;
+    font-stretch: normal;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .admin-text139 {
+    color: rgb(255, 255, 255);
+    width: 257px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.15;
+  }
+  .admin-contact {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    flex-direction: column;
+  }
+  .admin-navlink7 {
+    display: contents;
+  }
+  .admin-text153 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    font-stretch: normal;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .admin-text154 {
+    color: rgb(255, 255, 255);
+    width: 257px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.15;
+  }
+  .admin-about {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-direction: column;
+  }
+  .admin-navlink8 {
+    display: contents;
+  }
+  .admin-text164 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    font-stretch: normal;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .admin-text165 {
+    color: rgb(255, 255, 255);
+    width: 257px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.15;
+  }
+  @media(max-width: 1200px) {
+    .admin-vg-logo1 {
+      top: 30px;
+      left: 21px;
+      width: auto;
+      position: static;
+      margin-left: 20px;
+    }
+    .admin-navbutton {
+      width: auto;
+      position: static;
+      margin-left: var(--dl-space-space-sixunits);
+      margin-right: var(--dl-space-space-sixunits);
+    }
+    .admin-text {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-text003 {
+      top: 4.00390625px;
+      right: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-text005 {
+      top: 2.01171875px;
+      color: rgb(115, 117, 117);
+      width: auto;
+      position: static;
+      font-size: 24px;
+      font-family: Montserrat;
+      font-weight: 500;
+      line-height: normal;
+      margin-left: 6px;
+      margin-right: 6px;
+      text-decoration: none;
+    }
+    .admin-magnifyingglass1 {
+      top: 31px;
+      left: 890px;
+      width: auto;
+      position: static;
+    }
+    .admin-navbutton1 {
+      width: auto;
+      position: static;
+      margin-left: var(--dl-space-space-sixunits);
+      margin-right: var(--dl-space-space-sixunits);
+    }
+    .admin-text136 {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-text153 {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-text164 {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+  }
+  

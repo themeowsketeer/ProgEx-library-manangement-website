@@ -1,0 +1,2438 @@
+.search-filter-book-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* overflow: auto; */
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.search-filter-book-filterbook {
+  width: 100%;
+  height: auto;
+  /* display: flex; */
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.search-filter-book-container01 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.search-filter-book-nav-bar-logined {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.search-filter-book-container02 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-filter-book-navlink {
+  display: contents;
+}
+.search-filter-book-vg-logo1 {
+  width: 161px;
+  cursor: pointer;
+  height: 46px;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 40%;
+  text-decoration: none;
+}
+.search-filter-book-navbutton {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 5%;
+  flex-direction: row;
+}
+.search-filter-book-navlink1 {
+  display: contents;
+}
+.search-filter-book-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.search-filter-book-navlink2 {
+  display: contents;
+}
+.search-filter-book-text003 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.search-filter-book-navlink3 {
+  display: contents;
+}
+.search-filter-book-text005 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.search-filter-book-navlink4 {
+  display: contents;
+}
+.search-filter-book-magnifyingglass1 {
+  width: 33px;
+  cursor: pointer;
+  height: 29px;
+  display: flex;
+  align-self: center;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 2%;
+  align-content: center;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.search-filter-book-navlink5 {
+  color: rgb(255, 255, 255);
+  width: 208px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(219, 129, 45);
+}
+.search-filter-book-navlink5:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-navlink5:active {
+  background-color: #af5d05;
+}
+.search-filter-book-container03 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.search-filter-book-search-bar {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: center;
+  margin-left: 95px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.search-filter-book-search-bar1 {
+  width: 850px;
+  height: 45px;
+  font-size: 24px;
+  align-self: center;
+  font-family: Montserrat;
+  border-width: 1px;
+  border-radius: 9px;
+  background-color: #FFFFFF;
+}
+.search-filter-book-add-to-cart-button {
+  color: rgb(255, 255, 255);
+  width: 210px;
+  cursor: pointer;
+  height: 45px;
+  font-size: 24px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  border-radius: 9px;
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: rgb(219, 129, 45);
+}
+.search-filter-book-add-to-cart-button:hover {
+  box-shadow: 5px 5px 10px 0px #9f9c9c;
+}
+.search-filter-book-container04 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+.search-filter-book-text006 {
+  color: rgb(0, 0, 0);
+  width: 500px;
+  height: auto;
+  font-size: 40px;
+  align-self: flex-start;
+  font-style: Bold;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 55px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  margin-top: var(--dl-space-space-oneunits);
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.search-filter-book-text007 {
+  color: rgba(0, 0, 0, 1);
+  width: 129px;
+  height: auto;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: var(--dl-space-space-halfunit);
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-select {
+  flex: 1;
+  width: 160px;
+  height: 35px;
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 9px;
+}
+.search-filter-book-contianer {
+  width: 1200px;
+  height: 440px;
+  display: flex;
+  padding: 0;
+  align-self: center;
+  box-sizing: border-box;
+  /* margin-top: var(--dl-space-space-halfunit); */
+  margin-left: 8%;
+  margin-bottom: 50px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 9px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(245, 222, 179, 1);
+}
+.search-filter-book-alan-turingbook1 {
+  width: 243px;
+  height: 343px;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 100px;
+  border-color: transparent;
+}
+.search-filter-book-container06 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-text009 {
+  color: rgb(0, 0, 0);
+  width: 736px;
+  height: auto;
+  font-size: 48px;
+  font-style: ExtraBold;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.search-filter-book-text010 {
+  color: rgb(0, 0, 0);
+  width: auto;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: right;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text012 {
+  font-style: normal;
+  font-weight: 500;
+  
+}
+.search-filter-book-text013 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text015 {
+  color: rgb(0, 0, 0);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text017 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text019 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text021 {
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-cat {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.search-filter-book-tag {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text023 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag01 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text025 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag02 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text027 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-contianer1 {
+  width: 1400px;
+  height: 440px;
+  display: flex;
+  padding: 0;
+  align-self: center;
+  box-sizing: border-box;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 9px;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(245, 222, 179, 1);
+}
+.search-filter-book-alan-turingbook11 {
+  width: 243px;
+  height: 343px;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 100px;
+  border-color: transparent;
+}
+.search-filter-book-container07 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-text029 {
+  color: rgb(0, 0, 0);
+  width: 736px;
+  height: auto;
+  font-size: 48px;
+  font-style: ExtraBold;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.search-filter-book-text030 {
+  color: rgb(0, 0, 0);
+  width: 374px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text032 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text033 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text035 {
+  color: rgb(0, 0, 0);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text037 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text039 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text041 {
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-cat1 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.search-filter-book-tag03 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text043 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag04 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text045 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag05 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text047 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-contianer2 {
+  width: 1400px;
+  height: 440px;
+  display: flex;
+  padding: 0;
+  align-self: center;
+  box-sizing: border-box;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 9px;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(245, 222, 179, 1);
+}
+.search-filter-book-alan-turingbook12 {
+  width: 243px;
+  height: 343px;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 100px;
+  border-color: transparent;
+}
+.search-filter-book-container08 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-text049 {
+  color: rgb(0, 0, 0);
+  width: 736px;
+  height: auto;
+  font-size: 48px;
+  font-style: ExtraBold;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.search-filter-book-text050 {
+  color: rgb(0, 0, 0);
+  width: 374px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text052 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text053 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text055 {
+  color: rgb(0, 0, 0);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text057 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text059 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text061 {
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-cat2 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.search-filter-book-tag06 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text063 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag07 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text065 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag08 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text067 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-contianer3 {
+  width: 1400px;
+  height: 440px;
+  display: flex;
+  padding: 0;
+  align-self: center;
+  box-sizing: border-box;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 9px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(245, 222, 179, 1);
+}
+.search-filter-book-alan-turingbook13 {
+  width: 243px;
+  height: 343px;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 100px;
+  border-color: transparent;
+}
+.search-filter-book-container09 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-text069 {
+  color: rgb(0, 0, 0);
+  width: 736px;
+  height: auto;
+  font-size: 48px;
+  font-style: ExtraBold;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.search-filter-book-text070 {
+  color: rgb(0, 0, 0);
+  width: 374px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text072 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text073 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text075 {
+  color: rgb(0, 0, 0);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text077 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text079 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text081 {
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-cat3 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.search-filter-book-tag09 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text083 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag10 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text085 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag11 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text087 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-contianer4 {
+  width: 1400px;
+  height: 440px;
+  display: flex;
+  padding: 0;
+  align-self: center;
+  box-sizing: border-box;
+  margin-top: var(--dl-space-space-fourunits);
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 9px;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(245, 222, 179, 1);
+}
+.search-filter-book-alan-turingbook14 {
+  width: 243px;
+  height: 343px;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 100px;
+  border-color: transparent;
+}
+.search-filter-book-container10 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-text089 {
+  color: rgb(0, 0, 0);
+  width: 736px;
+  height: auto;
+  font-size: 48px;
+  font-style: ExtraBold;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.search-filter-book-text090 {
+  color: rgb(0, 0, 0);
+  width: 374px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text092 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text093 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text095 {
+  color: rgb(0, 0, 0);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text097 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text099 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text101 {
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-cat4 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.search-filter-book-tag12 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text103 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag13 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text105 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag14 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text107 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-contianer5 {
+  width: 1400px;
+  height: 440px;
+  display: flex;
+  padding: 0;
+  align-self: center;
+  box-sizing: border-box;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 9px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(245, 222, 179, 1);
+}
+.search-filter-book-alan-turingbook15 {
+  width: 243px;
+  height: 343px;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: 100px;
+  border-color: transparent;
+}
+.search-filter-book-container11 {
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  margin-left: 120px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-text109 {
+  color: rgb(0, 0, 0);
+  width: 736px;
+  height: auto;
+  font-size: 48px;
+  font-style: ExtraBold;
+  margin-top: 0px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-threeunits);
+  text-decoration: none;
+}
+.search-filter-book-text110 {
+  color: rgb(0, 0, 0);
+  width: 374px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text112 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text113 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text115 {
+  color: rgb(0, 0, 0);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-text117 {
+  font-style: normal;
+  font-weight: 500;
+}
+.search-filter-book-text119 {
+  color: #000000;
+  font-size: 28px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+.search-filter-book-text121 {
+  color: rgba(0, 0, 0, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.search-filter-book-cat5 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.search-filter-book-tag15 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text123 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag16 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text125 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-tag17 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.search-filter-book-text127 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-footer {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  overflow: hidden;
+  align-self: center;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/playground_assets/rectangle247216-8dmo-300h.png");
+}
+.search-filter-book-container12 {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.search-filter-book-container13 {
+  flex: 0 0 auto;
+  width: 383px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 40px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search-filter-book-v-ulogofullwhite1 {
+  width: 255px;
+  height: 72px;
+  border-color: transparent;
+}
+.search-filter-book-text129 {
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-text136 {
+  color: rgb(255, 255, 255);
+  width: 347px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.search-filter-book-navbutton1 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+}
+.search-filter-book-home {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+.search-filter-book-navlink6 {
+  display: contents;
+}
+.search-filter-book-text137 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.search-filter-book-text140 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.search-filter-book-contact {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+.search-filter-book-navlink7 {
+  display: contents;
+}
+.search-filter-book-text154 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.search-filter-book-text155 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.search-filter-book-about {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+}
+.search-filter-book-navlink8 {
+  display: contents;
+}
+.search-filter-book-text165 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.search-filter-book-text166 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+@media(max-width: 1200px) {
+  .search-filter-book-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .search-filter-book-navbutton {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .search-filter-book-text {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .search-filter-book-text003 {
+    top: 4.00390625px;
+    right: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .search-filter-book-text005 {
+    top: 2.01171875px;
+    color: rgb(115, 117, 117);
+    width: auto;
+    position: static;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+  }
+  .search-filter-book-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+  .search-filter-book-navbutton1 {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .search-filter-book-text137 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .search-filter-book-text154 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .search-filter-book-text165 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+/* Shuffle - filter, sort */
+/* Small reset */
+*,
+::before,
+::after {
+box-sizing: border-box;
+}
+
+body {
+height: auto;
+color: #34495e;
+}
+
+figure {
+margin: 0;
+padding: 0;
+}
+
+img {
+display: block;
+max-width: 100%;
+}
+
+a {
+text-decoration: none
+}
+
+a:hover {
+text-decoration: none
+}
+
+p {
+margin: 1em 0;
+line-height: 1.4
+}
+
+/*
+Shuffle needs either relative or absolute positioning on the container
+It will set it for you, but it'll cause another style recalculation and layout.
+AKA worse performance - so just set it here
+*/
+.my-shuffle-container {
+position: relative;
+overflow: hidden;
+}
+
+.my-sizer-element {
+position: absolute;
+opacity: 0;
+visibility: hidden;
+}
+
+$picture-gutter: 24px;
+$item-height: 220px;
+.picture-item {
+height: 220px;
+margin-top: $picture-gutter;
+
+img {
+  display: block;
+  width: 100%;
+}
+}
+
+@supports (object-fit: cover) {
+.picture-item img {
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+}
+
+.picture-item--h2 {
+height: ($item-height * 2) + $picture-gutter; /* 2x the height + 1 gutter */
+}
+
+.picture-item__inner {
+position: relative;
+height: 100%;
+overflow: hidden;
+background: #ecf0f1;
+}
+
+.picture-item__details {
+display: flex;
+align-items: baseline;
+justify-content: space-between;
+width: 100%;
+padding: 1em;
+}
+
+.picture-item__description {
+width: 100%;
+padding: 0 2em 1em 1em;
+margin: 0;
+}
+
+.picture-item__title {
+flex-shrink: 0;
+margin-right: 4px;
+}
+
+.picture-item__tags {
+flex-shrink: 1;
+text-align: right;
+margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+.picture-item--overlay {
+  .picture-item__details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    color: white;
+    overflow: hidden;
+  }
+
+  .picture-item__description {
+    display: none;
+  }
+  
+  a {
+    color: white;
+    text-shadow: 0 0 1px black;
+  }
+}
+}
+
+@media screen and (max-width: 767px) {
+.picture-item {
+  height: auto;
+  margin-top: 20px;
+}
+
+.picture-item__details,
+.picture-item__description {
+  font-size: 0.875em;
+  padding: 0.625em;
+}
+
+.picture-item__description {
+  padding-right: 0.875em;
+  padding-bottom: 1.25em;
+}
+
+.picture-item--h2 {
+  height: auto;
+}
+}
+
+/* Filter styling
+-------------- */
+.filter-label {
+display: block;
+padding: 0;
+margin-top: 0;
+margin-bottom: 4px;
+color: rgba(0, 0, 0, 1);
+font-weight: 600;
+font-size: 20px
+}
+
+.filters-group {
+padding: 0;
+margin: 0 0 4px;
+border: 0;
+}
+
+@media screen and (min-width: 768px) {
+.filters-group-wrap {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+}
+.btn-group:after,.btn-group:before {
+content: " ";
+display: table
+}
+
+.btn-group:after {
+clear: both
+}
+
+.btn-group .btn {
+float: left;
+border-radius: 9 px
+}
+
+.btn-group .btn:first-child {
+border-radius: 9px 0 0 9px
+}
+
+.btn-group .btn:not(:first-child) {
+margin-left: 0px
+}
+
+.btn-group .btn:last-child {
+border-radius: 0 9px 9px 0
+}
+
+.btn-group label.btn input[type=radio] {
+position: absolute;
+clip: rect(0,0,0,0);
+pointer-events: none
+}
+
+.btn {
+display: inline-block;
+padding: .5em .8em;
+text-align: center;
+border-radius: 3 px;
+border: 1px solid #34495e;
+color: rgb(0, 0, 0);
+font-size: 1rem;
+background-color: rgba(52,73,94,0);
+transition: .2s ease-out;
+cursor: pointer;
+-webkit-appearance: none
+}
+
+/* point the Sort button */
+@media (-moz-touch-enabled:0),(pointer: fine) {
+.btn:hover {
+  color:#fff;
+  text-decoration: none;
+  background-color: rgb(219, 129, 45)
+}
+}
+
+.btn:focus {
+outline-width: 0;
+box-shadow: 0 0 0 2px rgb(219, 129, 45)
+}
+
+/* clicked Sort button */
+.btn.active,.btn:active {
+box-shadow: inset 0 1px 2px rgb(219, 129, 45);
+color: #fff;
+background-color: rgb(219, 129, 45)
+}
+
+.btn:focus.active {
+box-shadow: inset 0 1px 2px rgb(219, 129, 45),0 0 0 2px rgb(219, 129, 45)
+}
+
+.btn:disabled {
+cursor: not-allowed;
+opacity: .7;
+color: #34495e;
+background-color: rgb(219, 129, 45)
+}
+
+/* Filter button */
+.btn--primary {
+color: rgb(0, 0, 0);
+border-color: #34495e;
+background-color: rgba(52,152,219,0)
+}
+
+/* point the Filter button */
+@media (-moz-touch-enabled:0),(pointer: fine) {
+.btn--primary:hover {
+  background-color:rgb(219, 129, 45)
+}
+}
+
+.btn--primary:focus {
+box-shadow: 0 0 0 2px rgb(219, 129, 45)
+}
+
+.btn--primary.active,.btn--primary:active {
+background-color: rgb(219, 129, 45)
+}
+
+/* clicked Sort button */
+.btn--primary:focus.active {
+box-shadow: inset 0 1px 2px rgba(0,0,0,.3),0 0 0 2px rgba(52,152,219,.4)
+}
+
+.btn--primary:disabled {
+color: #3498db;
+background-color: rgba(52,152,219,0)
+}
+
+@media screen and (max-width: 767px) {
+.btn {
+  font-size:.875rem
+}
+}
+
+/* Textfield
+---------------- */
+.textfield {
+-webkit-appearance: none;
+box-sizing: border-box;
+width: 100%;
+border: 2px solid #95a5a6;
+border-radius: 4px;
+padding: .5em;
+font-size: 1rem;
+color: #34495e;
+transition: .15s
+}
+
+.textfield::-webkit-input-placeholder {
+color: #95a5a6;
+transition: .15s
+}
+
+.textfield:-ms-input-placeholder {
+color: #95a5a6;
+transition: .15s
+}
+
+.textfield::-ms-input-placeholder {
+color: #95a5a6;
+transition: .15s
+}
+
+.textfield::placeholder {
+color: #95a5a6;
+transition: .15s
+}
+
+.textfield:hover {
+outline-width: 0;
+color: #5d6d77;
+border-color: #5d6d77
+}
+
+.textfield:hover::-webkit-input-placeholder {
+color: #5d6d77
+}
+
+.textfield:hover:-ms-input-placeholder {
+color: #5d6d77
+}
+
+.textfield:hover::-ms-input-placeholder {
+color: #5d6d77
+}
+
+.textfield:hover::placeholder {
+color: #5d6d77
+}
+
+.textfield:focus {
+outline-width: 0;
+border-color: #34495e
+}
+
+.textfield:focus::-webkit-input-placeholder {
+color: #34495e
+}
+
+.textfield:focus:-ms-input-placeholder {
+color: #34495e
+}
+
+.textfield:focus::-ms-input-placeholder {
+color: #34495e
+}
+
+.textfield:focus::placeholder {
+color: #34495e
+}
+
+// bootstrap3-like grid
+// -----------
+.container {
+padding-left: 3.5%;
+padding-right: 3.5%;
+}
+
+.container:after,
+.container:before {
+content: " ";
+display: table;
+}
+
+.container:after {
+clear: both;
+}
+
+.row {
+margin-left: 85px;
+margin-right: auto;
+}
+
+.row:after,
+.row:before {
+content: " ";
+display: table;
+}
+
+.row:after {
+clear: both;
+}
+
+.row .row {
+margin-left: -8px;
+margin-right: -8px;
+}
+
+/* Ensure images take up the same space when they load */
+/* https://vestride.github.io/Shuffle/images */
+.aspect {
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 100%;
+overflow: hidden;
+}
+
+.aspect__inner {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
+.aspect--16x9 {
+padding-bottom: 56.25%;
+}
+
+/* // bootstrap3-like grid */
+.col-1\@xs,
+.col-2\@xs,
+.col-3\@xs,
+.col-4\@xs,
+.col-5\@xs,
+.col-6\@xs,
+.col-1\@sm,
+.col-2\@sm,
+.col-3\@sm,
+.col-4\@sm,
+.col-5\@sm,
+.col-6\@sm,
+.col-7\@sm,
+.col-8\@sm,
+.col-9\@sm,
+.col-10\@sm,
+.col-11\@sm,
+.col-12\@sm,
+.col-1\@md,
+.col-2\@md,
+.col-3\@md,
+.col-4\@md,
+.col-5\@md,
+.col-6\@md,
+.col-7\@md,
+.col-8\@md,
+.col-9\@md,
+.col-10\@md,
+.col-11\@md,
+.col-12\@md {
+position: relative;
+box-sizing: border-box;
+min-height: 1px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.col-1\@xs,
+.col-2\@xs,
+.col-3\@xs,
+.col-4\@xs,
+.col-5\@xs,
+.col-6\@xs {
+float: left;
+}
+
+.col-1\@xs {
+width: 16.66667%;
+}
+
+.col-2\@xs {
+width: 33.33333%;
+}
+
+.col-3\@xs {
+width: 50%;
+}
+
+.col-4\@xs {
+width: 66.66667%;
+}
+
+.col-5\@xs {
+width: 83.33333%;
+}
+
+.col-6\@xs {
+width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+.col-1\@sm,
+.col-2\@sm,
+.col-3\@sm,
+.col-4\@sm,
+.col-5\@sm,
+.col-6\@sm,
+.col-7\@sm,
+.col-8\@sm,
+.col-9\@sm,
+.col-10\@sm,
+.col-11\@sm,
+.col-12\@sm {
+  float: left;
+}
+
+.col-1\@sm {
+  width: 8.33333%;
+}
+
+.col-2\@sm {
+  width: 16.66667%;
+}
+
+.col-3\@sm {
+  width: 25%;
+}
+
+.col-4\@sm {
+  width: 33.33333%;
+}
+
+.col-5\@sm {
+  width: 41.66667%;
+}
+
+.col-6\@sm {
+  width: 50%;
+}
+
+.col-7\@sm {
+  width: 58.33333%;
+}
+
+.col-8\@sm {
+  width: 66.66667%;
+}
+
+.col-9\@sm {
+  width: 75%;
+}
+
+.col-10\@sm {
+  width: 83.33333%;
+}
+
+.col-11\@sm {
+  width: 91.66667%;
+}
+
+.col-12\@sm {
+  width: 100%;
+}
+
+.container {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.row {
+  max-width: 1200px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.col-1\@md,
+.col-2\@md,
+.col-3\@md,
+.col-4\@md,
+.col-5\@md,
+.col-6\@md,
+.col-7\@md,
+.col-8\@md,
+.col-9\@md,
+.col-10\@md,
+.col-11\@md,
+.col-12\@md {
+  float: left;
+}
+
+.col-1\@md {
+  width: 8.33333%;
+}
+
+.col-2\@md {
+  width: 16.66667%;
+}
+
+.col-3\@md {
+  width: 25%;
+}
+
+.col-4\@md {
+  width: 33.33333%;
+}
+
+.col-5\@md {
+  width: 41.66667%;
+}
+
+.col-6\@md {
+  width: 50%;
+}
+
+.col-7\@md {
+  width: 58.33333%;
+}
+
+.col-8\@md {
+  width: 66.66667%;
+}
+
+.col-9\@md {
+  width: 75%;
+}
+
+.col-10\@md {
+  width: 83.33333%;
+}
+
+.col-11\@md {
+  width: 91.66667%;
+}
+
+.col-12\@md {
+  width: 100%;
+}
+}

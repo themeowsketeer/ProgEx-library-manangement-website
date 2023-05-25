@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="english">
+ 
+  <%- include('layouts/header'); -%>
+
+    <body>
+      <div>
+        <link href="/css/payCash.css" rel="stylesheet" />
+          <div class="pay-due-fee-with-cash-container">
+            <div class="pay-due-fee-with-cash-offlinepaymentoverduewithcash">
+              <div class="pay-due-fee-with-cash-container1">
+                <%- include('layouts/navbar'); -%>
+                <span class="pay-due-fee-with-cash-text06">
+                  <span>Pay overdue fee with cash</span>
+                </span>
+                <div class="pay-due-fee-with-cash-container3">
+                  <% if (book.coverLink) {%>
+                  <img
+                    alt="AlanTuringbook28573"
+                    src="<%= book.coverLink %>"
+                    class="pay-due-fee-with-cash-alan-turingbook2"
+                  />
+                  <%} else {%> 
+                  <img
+                    alt="AlanTuringbook28573"
+                    src="/playground_assets/alanturingbook28573-m3wl-500h.png"
+                    class="pay-due-fee-with-cash-alan-turingbook2"
+                  />
+                  <%} %>
+                  <div class="pay-due-fee-with-cash-container4">
+                    <span class="pay-due-fee-with-cash-text08">
+                      <span class="pay-due-fee-with-cash-text09">Book name: </span>
+                      <span></span>
+                      <span class="pay-due-fee-with-cash-text11"><%= book.title %></span>
+                    </span>
+                    <span class="pay-due-fee-with-cash-text12">
+                      <span class="pay-due-fee-with-cash-text13">Issued date:</span>
+                      <span class="pay-due-fee-with-cash-text15"><%= record.leaseDate.toDateString() %></span>
+                    </span>
+                    <span class="pay-due-fee-with-cash-text16">
+                      <span class="pay-due-fee-with-cash-text17">Due date:</span>
+                      <span></span>
+                      <span class="pay-due-fee-with-cash-text19"><%= record.dueDate.toDateString() %></span>
+                    </span>
+                    <span class="pay-due-fee-with-cash-text24">
+                      <span class="pay-due-fee-with-cash-text25">Total fee:</span>
+                      <span></span>
+                      <span class="pay-due-fee-with-cash-text27"><%= record.paymentAmount %>.000 VND</span>
+                    </span>
+                    <span class="pay-due-fee-with-cash-text28">
+                      <span class="pay-due-fee-with-cash-text29">Attention:</span>
+                      <br />
+                      <span>
+                        - If you don’t pay this fee, you aren’t allowed to borrow the
+                        next book.
+                      </span>
+                      <br />
+                      <span></span>
+                    </span>
+                    <span class="pay-due-fee-with-cash-text36">
+                      <p>
+                        Please bring this conformation and cash to library’s reception
+                        to pay your fee.
+                      </p>
+                    </span>
+                  </div>
+                </div>
+                <a href="/bookcart" class="pay-due-fee-with-cash-return-home button">
+                  Return
+                </a>
+                <br>
+                <br>
+                <!--footer-->
+                <%- include('layouts/footer'); -%>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--Script-->
+      <%- include('layouts/script'); -%>    
+    </body>
+</html>

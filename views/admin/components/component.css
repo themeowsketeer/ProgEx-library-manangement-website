@@ -1,0 +1,121 @@
+.component-container {
+  width: 921px;
+  height: 268px;
+  display: flex;
+  position: relative;
+  margin-top: 2%;
+  align-items: flex-start;
+}
+.component-radiobutton {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.component-think-javabook1 {
+  width: 168px;
+  height: 200px;
+  align-self: center;
+  margin-left: 1%;
+  border-color: transparent;
+}
+.component-container1 {
+  flex: 0 0 auto;
+  width: 654px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-left: 3%;
+  flex-direction: column;
+}
+.component-text {
+  color: rgba(219, 129, 45, 1);
+  width: 654px;
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.component-text02 {
+  color: rgb(0, 0, 0);
+  width: 350px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  margin-top: 1%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.component-text04 {
+  font-style: normal;
+  font-weight: 500;
+}
+.component-text07 {
+  color: rgb(0, 0, 0);
+  width: 350px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  margin-top: 1%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.component-text09 {
+  font-style: normal;
+  font-weight: 500;
+}
+.component-text10 {
+  color: rgb(0, 0, 0);
+  width: 350px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  margin-top: 1%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.component-text12 {
+  font-style: normal;
+  font-weight: 500;
+}
+.component-text13 {
+  width: 350px;
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  margin-top: 1%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.component-text14 {
+  color: #000000;
+}
+.component-text15 {
+  color: #ff0000;
+  font-weight: 700;
+}

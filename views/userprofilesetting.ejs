@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="./css/userprofilesetting.css" rel="stylesheet" />
+      <link href="./css/home.css" rel="stylesheet" />
+
+      <div class="userprofilesetting-container">
+        <div class="userprofilesetting-frameuserprofileprivacysetting">
+          <!-- navbar -->
+          <%- include('layouts/navbar'); -%>
+          <!-- userchoice -->
+          <%- include('layouts/UserNav'); -%>
+            <div class="userprofilesetting-container03">
+              <h1 class="userprofilesetting-text16">
+                <span>User account</span>
+              </h1>
+              <div class="userprofilesetting-edit">
+                <form
+                  method="POST"
+                  id ="change"
+                  enctype="multipart/form-data"
+                  class="userprofilesetting-form"
+                >
+                  <div class="userprofilesetting-container04">
+                    <label class="userprofilesetting-text18">First name:</label>
+                    <input
+                      type="text"
+                      id="userInfo.FName"
+                      name="userInfo.FName"
+                      class="userprofilesetting-textinput input"
+                      readonly
+                      value= <%= user.userInfo.FName %>
+                    />
+                  </div>
+                  <div class="userprofilesetting-container05">
+                    <label class="userprofilesetting-text19">Last name:</label>
+                    <input
+                      type="text"
+                      id="userInfo.LName"
+                      name="userInfo.LName"
+                      class="userprofilesetting-textinput1 input"
+                      readonly
+                      value= <%= user.userInfo.LName %>
+                    />
+                  </div>
+                  <div class="userprofilesetting-container06">
+                    <label class="userprofilesetting-text20">User name:</label>
+                    <input
+                      type="text"
+                      id="username"
+                      name ="username"
+                      class="userprofilesetting-textinput2 input"
+                      readonly
+                      value= <%= user.username %>
+                    />
+                  </div>
+                  <div class="userprofilesetting-container08">
+                    <label class="userprofilesetting-text22">Email:</label>
+                    <input
+                      type="email"
+                      id="email"
+                      id="email"
+                      class="userprofilesetting-textinput4 input"
+                      readonly
+                      value= <%= user.email %>
+                    />
+                  </div>
+                  <div class="userprofilesetting-container09">
+                    <label class="userprofilesetting-text23">Password</label>
+                    <input
+                      type="password"
+                      id="password"
+                      name ="password"
+                      class="userprofilesetting-textinput5 input"
+                      readonly
+                      value= <%= user.password %>
+                    />
+                  </div>
+                 
+                  <div class="userprofilesetting-container10">
+                    <button
+                    type="button"
+                      id="startEditing"
+                      class="userprofilesetting-button button"
+                    >
+                      edit
+                    </button>
+                    <button
+                      type="submit"
+                      id="save-editing"
+                      class="userprofilesetting-button1 button"
+                    >
+                      save
+                    </button>
+                  </div>
+                </form>
+
+                <form
+                action="/users/changeImage"
+                method="POST"
+                enctype="multipart/form-data"
+                class="userprofilesetting-form"
+              >
+                <div class="userprofilesetting-container04">
+                  <label class="userprofilesetting-text18">profile image</label>
+                  <input
+                    type="file"
+                    id="iconLink"
+                    name="iconLink"
+                    class="userprofilesetting-textinput input"
+                    
+                  />
+                </div>
+                <button
+                type="submit"
+                class="userprofilesetting-button1 button"
+                >
+                save
+              </button>
+                </form>
+
+              </div>
+            </div>
+          </div>
+          <!-- footer -->
+          <%- include('layouts/footer'); -%>
+        </div>
+      </div>
+    </div>
+  </body>
+  <%- include('layouts/script'); -%>
+</html>

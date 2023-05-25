@@ -1,0 +1,1387 @@
+.book-info-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.book-info-bookinfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.book-info-nav-bar {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.book-info-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book-info-navlink {
+  display: contents;
+}
+.book-info-vg-logo1 {
+  width: 161px;
+  cursor: pointer;
+  height: 46px;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 40%;
+  text-decoration: none;
+}
+.book-info-navbutton {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 5%;
+  flex-direction: row;
+}
+.book-info-navlink1 {
+  display: contents;
+}
+.book-info-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.book-info-navlink2 {
+  display: contents;
+}
+.book-info-text003 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.book-info-navlink3 {
+  display: contents;
+}
+.book-info-text005 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.book-info-navlink4 {
+  display: contents;
+}
+.book-info-magnifyingglass1 {
+  width: 33px;
+  height: 29px;
+  display: flex;
+  align-self: center;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 2%;
+  align-content: center;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.book-info-button {
+  color: rgb(255, 255, 255);
+  width: 183px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  background-color: rgb(222, 112, 0);
+}
+.book-info-button:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.book-info-bookdetailauthordatenamedescrip {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 4%;
+  border-color: transparent;
+  padding-bottom: 4%;
+  justify-content: center;
+  background-color: rgba(219, 129, 45, 1);
+}
+.book-info-book-image {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+.book-info-text006 {
+  color: rgba(255, 255, 255, 1);
+  width: 392px;
+  height: auto;
+  font-size: 35px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+.book-info-alan-turingbook1 {
+  width: 409px;
+  height: 558px;
+  margin-left: 5%;
+  border-color: transparent;
+}
+.book-info-bok-info {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 3%;
+  margin-right: -5%;
+  margin-top: 3%;
+  flex-direction: column;
+}
+.book-info-text008 {
+  color: rgba(255, 255, 255, 1);
+  width: 880px;
+  height: auto;
+  font-size: 64px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-info {
+  width: 885px;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.book-info-info1 {
+  width: 374px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.book-info-text010 {
+  color: rgba(253, 253, 253, 1);
+  width: 374px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.book-info-text011 {
+  color: rgba(253, 253, 253, 1);
+}
+.book-info-text013 {
+  color: rgba(252, 252, 252, 1);
+  width: 369px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text014 {
+  color: rgba(252, 252, 252, 1);
+}
+.book-info-text015 {
+  text-decoration: NONE;
+}
+.book-info-info2 {
+  width: 443px;
+  height: 92.33333587646484px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.book-info-text019 {
+  color: rgba(255, 255, 255, 1);
+  width: 389px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.book-info-text020 {
+  color: rgba(255, 255, 255, 1);
+}
+.book-info-text021 {
+  text-decoration: NONE;
+}
+.book-info-text023 {
+  color: rgba(255, 255, 255, 1);
+  width: 443px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text024 {
+  color: rgba(255, 255, 255, 1);
+}
+.book-info-text025 {
+  color: rgba(241, 241, 241, 1);
+}
+.book-info-category {
+  width: 677px;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  margin-top: 20px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.book-info-text027 {
+  color: rgba(250, 250, 250, 1);
+  width: 228px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.book-info-cat {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.book-info-tag {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.book-info-text029 {
+  color: rgba(0, 0, 0, 1);
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-tag1 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.book-info-text031 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-tag2 {
+  width: 117px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4f2f2;
+}
+.book-info-text033 {
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.book-info-button1 {
+  color: #DB812D;
+  width: 174px;
+  font-size: 23px;
+  font-style: normal;
+  margin-top: 35%;
+  text-align: center;
+  font-weight: 700;
+  border-width: 0px;
+  margin-right: 40px;
+}
+.book-info-button2 {
+  color: rgb(219, 129, 45);
+  width: 143px;
+  font-size: 23px;
+  font-style: normal;
+  margin-top: 52%;
+  text-align: center;
+  font-weight: 700;
+  border-width: 0px;
+}
+.book-info-container3 {
+  width: 100%;
+  height: 530px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/playground_assets/image66194-kzx3-600h.png");
+}
+.book-info-previewsection {
+  width: 70%;
+  height: 410px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.book-info-text035 {
+  color: rgba(229, 156, 70, 1);
+  width: 226px;
+  height: auto;
+  font-size: 48px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-group12 {
+  width: 80%;
+  height: 284px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 2%;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 0%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0%;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 2%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
+.book-info-image2 {
+  width: 221px;
+  height: 284px;
+  border-color: transparent;
+}
+.book-info-image3 {
+  width: 193px;
+  height: 284px;
+  margin-left: 10%;
+  border-color: transparent;
+}
+.book-info-image4 {
+  width: 193px;
+  height: 284px;
+  margin-left: 10%;
+  border-color: transparent;
+}
+.book-info-previewsection1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(219, 129, 45, 1);
+}
+.book-info-text037 {
+  color: rgba(255, 255, 255, 1);
+  width: 259px;
+  height: auto;
+  font-size: 48px;
+  align-self: auto;
+  font-style: ExtraBold;
+  margin-top: 2%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+.book-info-text039 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  font-size: 24px;
+  align-self: auto;
+  font-style: normal;
+  text-align: justify;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-decoration: none;
+}
+.book-info-arrow1 {
+  width: 31px;
+  height: 30px;
+  margin-top: 2%;
+  border-color: transparent;
+  margin-bottom: 3%;
+}
+.book-info-frame11 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  padding-bottom: 3%;
+  justify-content: center;
+}
+.book-info-text052 {
+  color: rgba(3, 3, 3, 1);
+  width: 70%;
+  height: auto;
+  font-size: 48px;
+  align-self: auto;
+  font-style: ExtraBold;
+  margin-top: 2%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+.book-info-text053 {
+  color: rgba(3, 3, 3, 1);
+}
+.book-info-text057 {
+  color: rgba(0, 0, 0, 1);
+}
+.book-info-text060 {
+  color: rgba(219, 129, 45, 1);
+  font-weight: 800;
+}
+.book-info-group14 {
+  width: 231px;
+  height: 43px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(219, 129, 45, 1);
+}
+.book-info-arrow11 {
+  width: 33px;
+  height: 26px;
+  margin-left: 4%;
+  border-color: transparent;
+}
+.book-info-text064 {
+  color: rgba(255, 255, 255, 1);
+  width: 170px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 2%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-review {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.book-info-text066 {
+  color: rgba(219, 129, 45, 1);
+  height: auto;
+  font-size: 48px;
+  align-self: auto;
+  font-style: ExtraBold;
+  margin-top: 2%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-form {
+  width: 55%;
+  height: 100px;
+  margin: 2%;
+  display: flex;
+  align-self: center;
+  margin-top: 0%;
+  align-items: center;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  flex-direction: row;
+  justify-content: center;
+}
+.book-info-textinput {
+  color: #ffffff;
+  width: 678px;
+  height: 44px;
+  font-size: 20px;
+  margin-right: 3%;
+  background-color: #db812d;
+  border-radius: 9px;
+}
+.book-info-button3 {
+  color: #ffffff;
+  width: 25%;
+  display: flex;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #00FF00;
+}
+.book-info-button3:hover {
+  box-shadow: 5px 5px 10px 0px #767272;
+}
+.book-info-button3:active {
+  background-color: #a65712;
+}
+.book-info-pngaaa1 {
+  width: 22px;
+  height: 24px;
+  border-color: transparent;
+}
+.book-info-text068 {
+  font-size: 18.5px;
+  margin-left: 7%;
+}
+.book-info-button4 {
+  color: #ffffff;
+  width: 25%;
+  display: flex;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 3%;
+  border-width: 0px;
+  margin-right: 3%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FF0000;
+}
+.book-info-button4:hover {
+  box-shadow: 5px 5px 10px 0px #767272;
+}
+.book-info-button4:active {
+  background-color: #A65712;
+}
+.book-info-pngaaa11 {
+  width: 21px;
+  height: 24px;
+  border-color: transparent;
+}
+.book-info-text069 {
+  font-size: 18px;
+  margin-left: 7%;
+}
+.book-info-reveiewplace {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  overflow: hidden;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: gray;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition-duration: 0.5s;
+}
+.book-info-reveiewplace2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 2%;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.book-info-a-comment {
+  width: 70%;
+  height: 310px;
+  display: flex;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 2%;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 0%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0%;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 2%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+}
+.book-info-group13 {
+  width: 611px;
+  height: 76px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
+.book-info-image5 {
+  width: 59px;
+  height: 52px;
+  margin-right: 3%;
+  border-radius: var(--dl-radius-radius-round);
+}
+.book-info-text070 {
+  color: rgb(0, 0, 0);
+  width: 525px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text071 {
+  font-weight: 700;
+}
+.book-info-text072 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+}
+.book-info-frame10 {
+  width: 100%;
+  height: 194px;
+  display: flex;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgb(74, 219, 45);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.book-info-framed {
+  width: 100%;
+  height: 194px;
+  display: flex;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgb(235, 7, 7); 
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.book-info-text073 {
+  color: rgba(0, 0, 0, 1);
+  width: 95%;
+  height: 171px;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: justify;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-stretch: normal;
+  margin-right: 3%;
+  text-decoration: none;
+}
+
+
+.book-info-container4 {
+  width: 192px;
+  height: 29px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.book-info-aditional {
+  width: 192px;
+  height: 29px;
+  display: flex;
+  align-items: flex-start;
+}
+.book-info-text075 {
+  color: rgb(0, 0, 0);
+  width: 192px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text076 {
+  color: rgb(0, 0, 0);
+  width: 192px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-a-comment1 {
+  width: 70%;
+  height: 310px;
+  display: flex;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 3%;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 0%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0%;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+}
+.book-info-group131 {
+  width: 611px;
+  height: 76px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
+.book-info-image51 {
+  width: 59px;
+  height: 52px;
+  margin-right: 3%;
+  border-radius: var(--dl-radius-radius-round);
+}
+.book-info-text077 {
+  color: rgb(0, 0, 0);
+  width: 525px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text078 {
+  font-weight: 700;
+}
+.book-info-text079 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+}
+.book-info-frame101 {
+  width: 100%;
+  height: 194px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(219, 129, 45, 1);
+  border-style: solid;
+  border-width: 1px;
+  justify-content: center;
+}
+.book-info-text080 {
+  color: rgba(0, 0, 0, 1);
+  width: 1085px;
+  height: 171px;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: justify;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3%;
+  font-stretch: normal;
+  margin-right: 3%;
+  text-decoration: none;
+}
+.book-info-container5 {
+  width: 192px;
+  height: 29px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.book-info-aditional1 {
+  width: 192px;
+  height: 29px;
+  display: flex;
+  align-items: flex-start;
+}
+.book-info-text082 {
+  color: rgb(0, 0, 0);
+  width: 192px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text083 {
+  color: rgb(0, 0, 0);
+  width: 192px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Light;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-arrow {
+  width: 61px;
+  height: 38px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 0%;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 1%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(219, 129, 45, 1);
+}
+.book-info-arrow12 {
+  width: 29px;
+  height: 29px;
+  border-color: transparent;
+}
+.book-info-image6 {
+  width: 100%;
+  height: auto;
+  border-color: transparent;
+}
+.book-info-footer {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  background-image: url("/playground_assets/rectangle247216-8dmo-300h.png");
+}
+.book-info-container6 {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.book-info-container7 {
+  flex: 0 0 auto;
+  width: 383px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.book-info-v-ulogofullwhite1 {
+  width: 255px;
+  height: 72px;
+  border-color: transparent;
+}
+.book-info-text084 {
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-text091 {
+  color: rgb(255, 255, 255);
+  width: 347px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.book-info-navbutton1 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  flex-direction: row;
+}
+.book-info-home {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  flex-direction: column;
+}
+.book-info-navlink5 {
+  display: contents;
+}
+.book-info-text092 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.book-info-text095 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.book-info-contact {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  flex-direction: column;
+}
+.book-info-navlink6 {
+  display: contents;
+}
+.book-info-text109 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.book-info-text110 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.book-info-about {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.book-info-navlink7 {
+  display: contents;
+}
+.book-info-text120 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.book-info-text121 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+@media(max-width: 1200px) {
+  .book-info-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .book-info-navbutton {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .book-info-text {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .book-info-text003 {
+    top: 4.00390625px;
+    right: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .book-info-text005 {
+    top: 2.01171875px;
+    color: rgb(115, 117, 117);
+    width: auto;
+    position: static;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+  }
+  .book-info-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+  .book-info-navbutton1 {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .book-info-text092 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .book-info-text109 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .book-info-text120 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}

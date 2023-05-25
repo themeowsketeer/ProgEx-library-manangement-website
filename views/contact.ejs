@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+  <body>
+    <div>
+      <link href="./css/style.css" rel="stylesheet" />
+
+      <div class="contact-container">
+        <div class="contact-contact">
+          <!--NavBar-->
+          <%- include('layouts/navbar'); -%>
+
+          <div class="contact-container02">
+            <h1 class="contact-text06">
+              <span>HAVING QUESTION?</span>
+              <br />
+              <span>FEEL FREE TO</span>
+              <br />
+              <span>CONTACT US!</span>
+            </h1>
+          </div>
+          <div class="contact-container03">
+            <div class="contact-container04">
+              <img
+                alt="home11956"
+                src="/playground_assets/home11956-yjxw-1500w.png"
+                class="contact-home1"
+              />
+              <span class="contact-text12">
+                <span>Ring road 4, Quarter 4, Thoi Hoa Ward,</span>
+                <br />
+                <span>Ben Cat Town, Binh Duong Province</span>
+              </span>
+            </div>
+            <div class="contact-container05">
+              <img
+                alt="telephonecall11966"
+                src="/playground_assets/telephonecall11966-jf0v-200h.png"
+                class="contact-telephonecall1"
+              />
+              <span class="contact-text16">
+                <span>(0274) 222 0990 - 70206</span>
+              </span>
+            </div>
+            <div class="contact-container06">
+              <img
+                alt="fax11966"
+                src="/playground_assets/fax11966-0n0d-200h.png"
+                class="contact-fax1"
+              />
+              <span class="contact-text18"><span>(0274) 222 0980</span></span>
+            </div>
+          </div>
+          <div class="contact-group-container">
+            <div class="contact-container07">
+              <div class="contact-container08">
+                <h1 class="contact-text20">
+                  <span>
+                    <span>MESSAGE US VIA</span>
+                    <br />
+                    <span>E-MAIL</span>
+                  </span>
+                </h1>
+                <h2 class="contact-text25">
+                  Get in touch with our staff and get timely response, with
+                  ease!
+                </h2>
+              </div>
+            </div>
+            <div class="contact-container09">
+              <form method="POST" class="contact-form">
+                <div class="contact-container10">
+                  <input
+                    type="text"
+                    placeholder="name"
+                    class="contact-textinput input"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="contact-textinput1 input"
+                  />
+                </div>
+                <input
+                  type="password"
+                  placeholder="Enter password"
+                  class="contact-textinput2 input"
+                />
+                <input
+                  type="text"
+                  placeholder="message"
+                  class="contact-textinput3 input"
+                />
+                <button class="contact-button1 button">send</button>
+              </form>
+            </div>
+          </div>
+          <!--footer-->
+          <%- include('layouts/footer'); -%>
+        </div>
+      </div>
+    </div>
+  </body>
+  <%- include('layouts/script'); -%>
+</html>

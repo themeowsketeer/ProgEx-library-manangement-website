@@ -1,0 +1,2081 @@
+.adminheader-adminheader {
+    width: 1800px;
+    height: 150px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+  }
+  .adminheader-adminheader1 {
+    width: 1800px;
+    height: 150px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-navlink {
+    display: contents;
+  }
+  .adminheader-dashboardadminbutton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 10%;
+    padding-top: 0;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-rectangle49 {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 0px;
+    border-color: transparent;
+  }
+  .adminheader-text {
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: Bold;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .adminheader-navlink1 {
+    display: contents;
+  }
+  .adminheader-useradminbutton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 27.5%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-rectangle491 {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 0px;
+    border-color: transparent;
+  }
+  .adminheader-text2 {
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: Bold;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .adminheader-navlink2 {
+    display: contents;
+  }
+  .adminheader-bookadminbutton {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    margin-left: 27.5%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: rgba(219, 129, 45, 1);
+  }
+  .adminheader-rectangle492 {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 0px;
+    border-color: transparent;
+  }
+  .adminheader-text4 {
+    color: rgba(255, 255, 255, 1);
+    width: 112px;
+    height: auto;
+    font-size: 16px;
+    align-self: center;
+    font-style: Bold;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .adminheader-root-class-name {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name1 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name2 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name3 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  .adminheader-root-class-name4 {
+    top: 90px;
+    left: 0px;
+    width: 100%;
+    position: static;
+    align-self: flex-start;
+  }
+  
+  .admin-user-board-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .admin-user-board-container1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .admin-user-board-nav-bar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .admin-user-board-navlink {
+    display: contents;
+  }
+  .admin-user-board-vg-logo1 {
+    width: 161px;
+    cursor: pointer;
+    height: 46px;
+    margin-left: 2%;
+    border-color: transparent;
+    margin-right: 40%;
+    text-decoration: none;
+  }
+  .admin-user-board-navbutton {
+    width: auto;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-right: 5%;
+    flex-direction: row;
+  }
+  .admin-user-board-navlink1 {
+    display: contents;
+  }
+  .admin-user-board-text {
+    color: rgb(115, 117, 117);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .admin-user-board-navlink2 {
+    display: contents;
+  }
+  .admin-user-board-text003 {
+    color: rgba(115, 117, 117, 1);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .admin-user-board-navlink3 {
+    display: contents;
+  }
+  .admin-user-board-text005 {
+    color: rgb(115, 117, 117);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    margin-right: 5%;
+    text-decoration: none;
+  }
+  .admin-user-board-navlink4 {
+    display: contents;
+  }
+  .admin-user-board-magnifyingglass1 {
+    width: 33px;
+    cursor: pointer;
+    height: 29px;
+    display: flex;
+    align-self: center;
+    margin-left: 2%;
+    border-color: transparent;
+    margin-right: 2%;
+    align-content: center;
+    flex-direction: initial;
+    text-decoration: none;
+  }
+  .admin-user-board-navlink5 {
+    color: rgb(255, 255, 255);
+    width: 208px;
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 2%;
+    border-width: 0px;
+    margin-right: 2%;
+    text-decoration: none;
+    background-color: rgb(219, 129, 45);
+  }
+  .admin-user-board-navlink5:hover {
+    width: 181px;
+    height: 39px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .admin-user-board-navlink5:active {
+    background-color: #af5d05;
+  }
+  .admin-user-board-searchbar {
+    width: 750px;
+    height: 40px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    margin-top: 3%;
+    align-items: center;
+    flex-shrink: 1;
+    margin-left: 8%;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-magnifyingglass2 {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-textinput {
+    width: 400px;
+    margin-left: 2%;
+  }
+  .admin-user-board-select {
+    align-self: center;
+    margin-left: 5%;
+  }
+  .admin-user-board-add-new-user-button {
+    color: rgb(255, 255, 255);
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    transition: 0.3s;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 10%;
+    border-width: 0px;
+    border-radius: 9px;
+    text-transform: capitalize;
+    background-color: rgb(219, 129, 45);
+  }
+  .admin-user-board-add-new-user-button:hover {
+    box-shadow: 5px 5px 10px 0px #aaa8a8;
+  }
+  .admin-user-board-add-new-user-button:active {
+    background-color: #985010;
+  }
+  .admin-user-board-adminuserboard {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-self: flex-start;
+    margin-top: 3%;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-left: 5%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-container3 {
+    flex: 0 0 auto;
+    width: 1264px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .admin-user-board-newusertable {
+    width: 1264px;
+    height: 586px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .admin-user-board-container4 {
+    flex: 0 0 auto;
+    width: 94px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .admin-user-board-table-headers {
+    flex: 0 0 auto;
+    width: var(--dl-size-size-maxwidth);
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .admin-user-board-container5 {
+    flex: 0 0 auto;
+    width: 1400px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .admin-user-board-text006 {
+    color: rgba(115, 117, 117, 1);
+    width: 40px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text008 {
+    color: rgb(115, 117, 117);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text009 {
+    color: rgb(115, 117, 117);
+    width: 120px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text010 {
+    color: rgba(115, 117, 117, 1);
+    width: 50px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text012 {
+    color: rgba(115, 117, 117, 1);
+    width: 94px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text014 {
+    color: rgb(115, 117, 117);
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 15%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text015 {
+    color: rgb(115, 117, 117);
+    width: 120px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text016 {
+    color: rgb(115, 117, 117);
+    width: 120px;
+    height: auto;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.25%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-user-info {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user11 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text017 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text019 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text021 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text022 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text024 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text026 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text028 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text029 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw1 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan1 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-user-info1 {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user111 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text030 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text032 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text034 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text035 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text037 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text039 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text041 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text042 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw11 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan11 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-user-info2 {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user112 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text043 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text045 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text047 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text048 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text050 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text052 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text054 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text055 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw12 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan12 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-user-info3 {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user113 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text056 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text058 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text060 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text061 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text063 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text065 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text067 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text068 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw13 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan13 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-user-info4 {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user114 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text069 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text071 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text073 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text074 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text076 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text078 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text080 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text081 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw14 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan14 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-user-info5 {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user115 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text082 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text084 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text086 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text087 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text089 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text091 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text093 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text094 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw15 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan15 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-user-info6 {
+    width: 1400px;
+    height: 81px;
+    display: flex;
+    padding: 0;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .admin-user-board-user116 {
+    width: 42px;
+    height: 42px;
+    align-self: center;
+    border-color: transparent;
+  }
+  .admin-user-board-text095 {
+    color: rgba(0, 0, 0, 1);
+    width: 89px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text097 {
+    color: rgba(0, 0, 0, 1);
+    width: 120px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 2.5%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text099 {
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    font-size: 22px;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 0.25%;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+  .admin-user-board-text100 {
+    color: rgba(0, 0, 0, 1);
+    width: 29px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.75%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text102 {
+    color: rgba(0, 0, 0, 1);
+    width: 282px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text104 {
+    color: rgba(0, 0, 0, 1);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 2%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text106 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 1.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text107 {
+    color: rgb(0, 0, 0);
+    width: 110px;
+    height: auto;
+    font-size: 20px;
+    align-self: center;
+    font-style: Medium;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 3%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-draw16 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 3%;
+    border-color: transparent;
+  }
+  .admin-user-board-trashcan16 {
+    width: 28px;
+    height: 28px;
+    align-self: center;
+    margin-left: 1%;
+    border-color: transparent;
+  }
+  .admin-user-board-pagenumber {
+    width: 289px;
+    height: 39px;
+    display: flex;
+    padding: 0;
+    align-self: flex-end;
+    box-sizing: border-box;
+    margin-top: 3%;
+    align-items: center;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 35%;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+  }
+  .admin-user-board-downarrow1 {
+    width: 30px;
+    height: 30px;
+    border-color: transparent;
+  }
+  .admin-user-board-text108 {
+    color: rgba(115, 117, 117, 1);
+    width: 9px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text109 {
+    color: rgba(219, 129, 45, 1);
+    width: 19px;
+    height: auto;
+    font-size: 32px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text110 {
+    color: rgba(115, 117, 117, 1);
+    width: 14px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text111 {
+    color: rgba(115, 117, 117, 1);
+    width: 17px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text113 {
+    color: rgba(115, 117, 117, 1);
+    width: 25px;
+    height: auto;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-downarrow2 {
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    border-color: transparent;
+  }
+  .admin-user-board-scroll-bar {
+    width: 15px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    border-color: transparent;
+    border-radius: 10px;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("/playground_assets/rectangle503521-f0vp-200w.png");
+    background-position: center;
+  }
+  .admin-user-board-rectangle51 {
+    width: 15px;
+    height: 200px;
+    border-color: transparent;
+    border-radius: 10px;
+  }
+  .admin-user-board-footer {
+    width: 100%;
+    height: 213px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-self: flex-end;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-size: cover;
+    background-image: url("/playground_assets/rectangle247216-8dmo-300h.png");
+  }
+  .admin-user-board-container6 {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .admin-user-board-container7 {
+    flex: 0 0 auto;
+    width: 383px;
+    height: auto;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    margin-right: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .admin-user-board-v-ulogofullwhite1 {
+    width: 255px;
+    height: 72px;
+    border-color: transparent;
+  }
+  .admin-user-board-text115 {
+    color: rgba(255, 255, 255, 1);
+    width: 243px;
+    height: auto;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-text122 {
+    color: rgb(255, 255, 255);
+    width: 347px;
+    height: auto;
+    font-size: 12px;
+    align-self: auto;
+    font-style: Medium;
+    margin-top: 5px;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .admin-user-board-navbutton1 {
+    width: auto;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    flex-direction: row;
+  }
+  .admin-user-board-home {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    flex-direction: column;
+  }
+  .admin-user-board-navlink6 {
+    display: contents;
+  }
+  .admin-user-board-text123 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    line-height: normal;
+    margin-left: 20px;
+    font-stretch: normal;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .admin-user-board-text126 {
+    color: rgb(255, 255, 255);
+    width: 257px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.15;
+  }
+  .admin-user-board-contact {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    flex-direction: column;
+  }
+  .admin-user-board-navlink7 {
+    display: contents;
+  }
+  .admin-user-board-text140 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    font-stretch: normal;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .admin-user-board-text141 {
+    color: rgb(255, 255, 255);
+    width: 257px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.15;
+  }
+  .admin-user-board-about {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-direction: column;
+  }
+  .admin-user-board-navlink8 {
+    display: contents;
+  }
+  .admin-user-board-text151 {
+    color: rgb(255, 255, 255);
+    width: auto;
+    cursor: pointer;
+    height: auto;
+    font-size: 30px;
+    align-self: auto;
+    font-style: normal;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    font-stretch: normal;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .admin-user-board-text152 {
+    color: rgb(255, 255, 255);
+    width: 257px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    line-height: 1.15;
+  }
+  @media(max-width: 1200px) {
+    .admin-user-board-vg-logo1 {
+      top: 30px;
+      left: 21px;
+      width: auto;
+      position: static;
+      margin-left: 20px;
+    }
+    .admin-user-board-navbutton {
+      width: auto;
+      position: static;
+      margin-left: var(--dl-space-space-sixunits);
+      margin-right: var(--dl-space-space-sixunits);
+    }
+    .admin-user-board-text {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-user-board-text003 {
+      top: 4.00390625px;
+      right: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-user-board-text005 {
+      top: 2.01171875px;
+      color: rgb(115, 117, 117);
+      width: auto;
+      position: static;
+      font-size: 24px;
+      font-family: Montserrat;
+      font-weight: 500;
+      line-height: normal;
+      margin-left: 6px;
+      margin-right: 6px;
+      text-decoration: none;
+    }
+    .admin-user-board-magnifyingglass1 {
+      top: 31px;
+      left: 890px;
+      width: auto;
+      position: static;
+    }
+    .admin-user-board-navbutton1 {
+      width: auto;
+      position: static;
+      margin-left: var(--dl-space-space-sixunits);
+      margin-right: var(--dl-space-space-sixunits);
+    }
+    .admin-user-board-text123 {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-user-board-text140 {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    .admin-user-board-text151 {
+      top: 0px;
+      left: 0px;
+      width: auto;
+      position: static;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+  }
+  

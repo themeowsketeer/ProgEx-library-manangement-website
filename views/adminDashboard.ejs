@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+  <body>
+    <div>
+      <link href="/css/admin.css" rel="stylesheet" />
+      <div class="admin-container">
+        <div class="admin-container01">
+          <%- include('layouts/navbar'); -%>
+          <%- include('layouts/adminheader'); -%>
+        </div>
+        <div class="admin-number-tab">
+          <div class="admin-totalusers">
+            <img
+              alt="group12002"
+              src="playground_assets/group12002-dmcza-200h.png"
+              class="admin-group1"
+            />
+            <div class="admin-container03">
+              <span class="admin-text006"><span>Total users</span></span>
+              <span class="admin-text008"><span><%= usersList.length %></span></span>
+            </div>
+          </div>
+          <div class="admin-totalbooks">
+            <img
+              alt="image"
+              src="playground_assets/book11982-qbxi-200h.png"
+              class="admin-image"
+            />
+            <div class="admin-container04">
+              <span class="admin-text010">Total books</span>
+              <span class="admin-text011"><span><%= booksList.length %></span></span>
+            </div>
+          </div>
+          <div class="admin-issued">
+            <img
+              alt="image"
+              src="playground_assets/library12002-d87n-200h.png"
+              class="admin-image1"
+            />
+            <div class="admin-container05">
+              <span class="admin-text013">Borrowed</span>
+              <span class="admin-text014"><span><%= totalBorrowed %></span></span>
+            </div>
+          </div>
+        </div>
+        <div class="admin-admindashboard">
+          <div class="admin--bchartscolumn-chats">
+            <canvas style = "position:absolute" id="myBarChart" width="100px" height="50px"></canvas>
+            <!-- <span class="admin-text041"><span>Reports</span></span> -->
+          </div>
+          <div id="data-container" data-array="<%= JSON.stringify(chartData) %>"></div>
+          <div class="admin-container06">
+            <div class="admin-lastactivetable">
+              <div class="admin-container07">
+                <div class="admin-container08">
+                  <span class="admin-active-user-title">New users</span>
+                  <table cellpadding = "7">
+                    <thead>
+                      <tr>
+                        <th class="admin-text043">PFP</th>
+                        <th class="admin-text043">Fullname</th>
+                        <th class="admin-text043">Username</th>  
+                        <th class="admin-text043">ID</th>
+                        <th class="admin-text043">Joined</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <% for (var i = 0; i < usersList.length; i++) { %>
+                      <tr>
+                        <td>
+                          <img
+                          alt="user112914"
+                          src="/playground_assets/user112914-a5a-200h.png"
+                          class="admin-user11"
+                          />
+                        </td>
+                        <td class="admin-text052">
+                          <%= usersList[i].userInfo.FName %> <%= usersList[i].userInfo.LName %>
+                        </td>
+                        <td class="admin-text053"><%= usersList[i].username %></td>
+                        <td class="admin-text054">
+                          <%= 
+                          usersList[i]._id.toString().substring( 17, 24 )
+                           %>
+                        </td>
+                        <td class="admin-text055"><%= usersList[i].createdAt.toDateString() %></td>
+                      </tr>
+                      <% } %>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <a
+                href="/adminUsersList"
+                id="viewAllUser"
+                class="admin-view-all-button button"
+              >
+                View all
+              </a>
+            </div>
+            <div class="admin-newbooktable">
+              <div class="admin-container09">
+                <span class="admin-new-book-title">New books</span>
+                <table cellpadding = "3">
+                  <thead>
+                    <tr>
+                      <th class="admin-text043" style="width: 30%">Title</th>
+                      <th class="admin-text043">ID</th>  
+                      <th class="admin-text043">ISBN</th>
+                      <th class="admin-text043">Uploaded Date</th>
+                      <th class="admin-text043">Quantity</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% for (var i = 0; i < booksList.length; i++) { %>
+                    <tr>
+                      <td class="admin-text092"><%= booksList[i].title %></td>
+                      <td class="admin-text093">
+                        <%= 
+                        booksList[i]._id.toString().substring( 17, 24 )
+                        %>
+                      </span>
+                      <td class="admin-text095"><%= booksList[i].internationalNumber %></td>
+                      <td class="admin-text096"><%= booksList[i].createdAt.toDateString() %></td>
+                      <td class="admin-text097"><%= booksList[i].copiesAvailable %></td>
+                    </tr>
+                    <% } %>
+                  </tbody>
+                </table>
+              </div>
+              <a
+                href="/adminBooksList"
+                id="viewAllBook"
+                class="admin-view-all-book-button button"
+              >
+                View all
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--footer-->
+        <%- include('layouts/footer'); -%>
+      </div>
+    </div>
+  </body>
+  <!--Script-->
+  <%- include('layouts/script'); -%>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="/js/graph.js">
+  </script>
+</html>

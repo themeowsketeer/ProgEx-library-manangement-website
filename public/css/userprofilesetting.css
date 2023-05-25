@@ -1,0 +1,852 @@
+.userprofilesetting-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.userprofilesetting-frameuserprofileprivacysetting {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.userprofilesetting-nav-bar {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.userprofilesetting-container01 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.userprofilesetting-navlink {
+  display: contents;
+}
+.userprofilesetting-vg-logo1 {
+  width: 161px;
+  cursor: pointer;
+  height: 46px;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 40%;
+  text-decoration: none;
+}
+.userprofilesetting-navbutton {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-right: 5%;
+  flex-direction: row;
+}
+.userprofilesetting-navlink01 {
+  display: contents;
+}
+.userprofilesetting-text {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.userprofilesetting-navlink02 {
+  display: contents;
+}
+.userprofilesetting-text03 {
+  color: rgba(115, 117, 117, 1);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.userprofilesetting-navlink03 {
+  display: contents;
+}
+.userprofilesetting-text05 {
+  color: rgb(115, 117, 117);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5%;
+  font-stretch: normal;
+  margin-right: 5%;
+  text-decoration: none;
+}
+.userprofilesetting-navlink04 {
+  display: contents;
+}
+.userprofilesetting-magnifyingglass1 {
+  width: 33px;
+  cursor: pointer;
+  height: 29px;
+  display: flex;
+  align-self: center;
+  margin-left: 2%;
+  border-color: transparent;
+  margin-right: 2%;
+  align-content: center;
+  flex-direction: initial;
+  text-decoration: none;
+}
+.userprofilesetting-navlink05 {
+  color: rgb(255, 255, 255);
+  width: 183px;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 2%;
+  border-width: 0px;
+  margin-right: 2%;
+  text-decoration: none;
+  background-color: rgb(222, 112, 0);
+}
+.userprofilesetting-navlink05:hover {
+  width: 181px;
+  height: 39px;
+  font-style: normal;
+  font-weight: 500;
+}
+.userprofilesetting-container02 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.userprofilesetting-userchoice {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: auto;
+  justify-content: flex-start;
+}
+.userprofilesetting-group13 {
+  width: 179px;
+  height: 190px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  margin-top: 3%;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+}
+.userprofilesetting-image5 {
+  width: 157px;
+  height: 163px;
+  margin-top: 3%;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-round);
+  margin-bottom: 3%;
+}
+.userprofilesetting-nanme {
+  width: 80%;
+  height: 57px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  margin-left: 3%;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 3%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #DB812D;
+}
+.userprofilesetting-text06 {
+  color: rgba(255, 253, 252, 1);
+  width: 279px;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-navlink06 {
+  display: contents;
+}
+.userprofilesetting-text08 {
+  color: rgba(219, 129, 45, 1);
+  width: 177px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 4%;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+.userprofilesetting-navlink07 {
+  display: contents;
+}
+.userprofilesetting-text10 {
+  color: rgba(219, 129, 45, 1);
+  width: 177px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+.userprofilesetting-navlink08 {
+  display: contents;
+}
+.userprofilesetting-text12 {
+  color: rgba(219, 129, 45, 1);
+  width: 177px;
+  height: auto;
+  font-size: 28px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+.userprofilesetting-log-out {
+  width: 68%;
+  height: 47px;
+  display: flex;
+  padding: 0;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #DB812D;
+  cursor: pointer;
+}
+.userprofilesetting-text14 {
+  color: rgba(255, 253, 252, 1);
+  width: 177px;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Light;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-container03 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10%;
+  flex-direction: column;
+}
+.userprofilesetting-text16 {
+  color: rgba(219, 129, 45, 1);
+  width: 338px;
+  height: auto;
+  font-size: 48px;
+  align-self: auto;
+  font-style: Bold;
+  margin-top: 4%;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-bottom: 2%;
+  text-decoration: none;
+}
+.userprofilesetting-edit {
+  width: 85%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 5%;
+  justify-content: center;
+  background-color: rgba(219, 129, 45, 1);
+  flex-direction: column;
+}
+.userprofilesetting-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 4%;
+  align-items: center;
+  padding-left: 4%;
+  margin-bottom: 4%;
+  padding-right: 4%;
+  flex-direction: column;
+  justify-content: center;
+}
+.userprofilesetting-container04 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userprofilesetting-text18 {
+  color: rgb(255, 252, 252);
+  width: 157px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-textinput {
+  width: 630px;
+  margin-left: 2%;
+  background-color: #f5d5b7;
+}
+.userprofilesetting-container05 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userprofilesetting-text19 {
+  color: rgb(255, 252, 252);
+  width: 157px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-textinput1 {
+  width: 630px;
+  margin-left: 2%;
+  background-color: #f5d5b7;
+}
+.userprofilesetting-container06 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userprofilesetting-text20 {
+  color: rgb(255, 252, 252);
+  width: 157px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-textinput2 {
+  width: 630px;
+  margin-left: 2%;
+  background-color: #f5d5b7;
+}
+.userprofilesetting-container07 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userprofilesetting-text21 {
+  color: rgb(255, 252, 252);
+  width: 157px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-textinput3 {
+  width: 630px;
+  margin-left: 2%;
+  background-color: #f5d5b7;
+}
+.userprofilesetting-container08 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userprofilesetting-text22 {
+  color: rgb(255, 252, 252);
+  width: 157px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-textinput4 {
+  width: 630px;
+  margin-left: 2%;
+  background-color: #f5d5b7;
+}
+.userprofilesetting-container09 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.userprofilesetting-text23 {
+  color: rgb(255, 252, 252);
+  width: 157px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-textinput5 {
+  width: 630px;
+  margin-left: 2%;
+  background-color: #f5d5b7;
+}
+.userprofilesetting-container10 {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.userprofilesetting-button {
+  color: rgb(219, 129, 45);
+  font-style: normal;
+  margin-top: 5%;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 4%;
+  border-width: 0px;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+.userprofilesetting-button:hover {
+  box-shadow: 5px 5px 10px 0px #827b7b;
+}
+.userprofilesetting-button:active {
+  box-shadow: 5px 5px 10px 0px #322f2f;
+}
+.userprofilesetting-button1 {
+  color: rgb(219, 129, 45);
+  font-style: normal;
+  margin-top: 5%;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-left: 4%;
+  border-width: 0px;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+.userprofilesetting-button1:hover {
+  box-shadow: 5px 5px 10px 0px #827b7b;
+}
+.userprofilesetting-button1:active {
+  box-shadow: 5px 5px 10px 0px #322f2f;
+}
+.userprofilesetting-footer {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  background-image: url("public/playground_assets/rectangle247216-8dmo-300h.png");
+}
+.userprofilesetting-container11 {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.userprofilesetting-container12 {
+  flex: 0 0 auto;
+  width: 383px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  margin-right: 5%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.userprofilesetting-v-ulogofullwhite1 {
+  width: 255px;
+  height: 72px;
+  border-color: transparent;
+}
+.userprofilesetting-text24 {
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-text31 {
+  color: rgb(255, 255, 255);
+  width: 347px;
+  height: auto;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Medium;
+  margin-top: 5px;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.userprofilesetting-navbutton1 {
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  flex-direction: row;
+}
+.userprofilesetting-home {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  flex-direction: column;
+}
+.userprofilesetting-navlink09 {
+  display: contents;
+}
+.userprofilesetting-text32 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.userprofilesetting-text35 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.userprofilesetting-contact {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  flex-direction: column;
+}
+.userprofilesetting-navlink10 {
+  display: contents;
+}
+.userprofilesetting-text49 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.userprofilesetting-text50 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+.userprofilesetting-about {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  flex-direction: column;
+}
+.userprofilesetting-navlink11 {
+  display: contents;
+}
+.userprofilesetting-text60 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  cursor: pointer;
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  font-stretch: normal;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.userprofilesetting-text61 {
+  color: rgb(255, 255, 255);
+  width: 257px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  line-height: 1.15;
+}
+@media(max-width: 1200px) {
+  .userprofilesetting-vg-logo1 {
+    top: 30px;
+    left: 21px;
+    width: auto;
+    position: static;
+    margin-left: 20px;
+  }
+  .userprofilesetting-navbutton {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .userprofilesetting-text {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .userprofilesetting-text03 {
+    top: 4.00390625px;
+    right: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .userprofilesetting-text05 {
+    top: 2.01171875px;
+    color: rgb(115, 117, 117);
+    width: auto;
+    position: static;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+  }
+  .userprofilesetting-magnifyingglass1 {
+    top: 31px;
+    left: 890px;
+    width: auto;
+    position: static;
+  }
+  .userprofilesetting-navbutton1 {
+    width: auto;
+    position: static;
+    margin-left: var(--dl-space-space-sixunits);
+    margin-right: var(--dl-space-space-sixunits);
+  }
+  .userprofilesetting-text32 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .userprofilesetting-text49 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .userprofilesetting-text60 {
+    top: 0px;
+    left: 0px;
+    width: auto;
+    position: static;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}

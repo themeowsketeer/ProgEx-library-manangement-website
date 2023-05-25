@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="english">
+    <%- include('layouts/header'); -%>
+    <body>
+        <div>
+            <link href="/css/admin-add-book.css" rel="stylesheet" />
+            <div class="add-book-container">
+                <div class="add-book-header">
+                    <%- include('layouts/navbar'); -%>
+                    <%- include('layouts/adminheader'); -%>
+                </div>
+                <div class="add-book-container2">
+                    <div class="add-book-login">
+                        <div class="add-book-background">
+                            <h1 class="add-book-text06">Add book</h1>
+                            <form action="/admin/storeBook" name="addBook" enctype="multipart/form-data" method="POST" onsubmit="return validateForm()" class="add-book-form">
+                                <div class="add-book-book-name">
+                                    <label for="Title" class="add-book-text07">Book name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        class="add-book-textinput input"
+                                    />
+                                </div>
+                                <div class="add-book-author">
+                                    <label for="Author" class="add-book-text08">
+                                    ISBN
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="internationalNumber"
+                                        name="internationalNumber"
+                                        class="add-book-textinput1 input"
+                                    />
+                                </div>
+                                <div class="add-book-author">
+                                    <label for="author" class="add-book-text08">
+                                    Author (separated by commas)
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="author"
+                                        name="author"
+                                        class="add-book-textinput1 input"
+                                    />
+                                </div>
+                                <div class="add-book-author">
+                                    <label for="category" class="add-book-text08">
+                                    Category (separated by commas)
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="categories"
+                                        name="categories"
+                                        class="add-book-textinput1 input"
+                                    />
+                                </div>
+                                <div class="add-book-author1">
+                                    <label for="sypnopsis" class="add-book-text09">
+                                        Synopsis
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="synopsis"
+                                        name="synopsis"
+                                        class="add-book-textinput2 input"
+                                    />
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="PDFPreviewLink" class="add-book-text11">
+                                    PDF Preview Link
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="PDFPreviewLink"
+                                        name="PDFPreviewLink"
+                                        class="add-book-textinput4 input"
+                                    />
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="PDFPreviewLink" class="add-book-text11">
+                                    Language
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="language"
+                                        name="language"
+                                        class="add-book-textinput4 input"
+                                    />
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="PDFPreviewLink" class="add-book-text11">
+                                    Publisher
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="publisher"
+                                        name="publisher"
+                                        class="add-book-textinput4 input"
+                                    />
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="PDFPreviewLink" class="add-book-text11">
+                                    Published Year
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="publishedAt"
+                                        name="publishedAt"
+                                        class="add-book-textinput4 input"
+                                    />
+                                </div>
+                                <div class="add-book-quantity">
+                                    <label for="Quantity" class="add-book-text12">No. of books</label>
+                                    <input
+                                        type="text"
+                                        id="copiesAvailable"
+                                        name="copiesAvailable"
+                                        class="add-book-textinput5 input"
+                                    />
+                                </div>
+                                <div class="add-book-pub-year">
+                                    <label for="coverLink" class="add-book-text10">Book Cover</label>
+                                    <input
+                                      type="file"
+                                      id="coverLink"
+                                      name="coverLink"
+                                      class="add-book-textinput3 input"
+                                    />
+                                  </div>
+                                <button type='submit' class="add-book-login1 button">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <%- include('layouts/footer'); -%>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="/js/addBookEmpty.js"></script>
+</html>

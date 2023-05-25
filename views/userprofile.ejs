@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="english">
+  
+<%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="/css/userprofile.css" rel="stylesheet" />
+      <link href="/css/home.css" rel="stylesheet" />
+      <link href="./css/userprofilesetting.css" rel="stylesheet" />
+
+      <div class="userprofile-container">
+        <div class="userprofile-userprofile">
+          <!-- navbar -->
+          <%- include('layouts/navbar'); -%>
+          <!-- userChoice -->
+          <%- include('layouts/UserNav'); -%>
+            <div class="userprofile-container02">
+              <div class="userprofile-container03"></div>
+              <div class="userprofile-container04">
+                <div class="userprofile-overarllstat">
+                  <span class="userprofile-text16">
+                    <span>Overall details</span>
+                  </span>
+                  <div class="userprofile-container05">
+                    <div class="userprofile-container06">
+                      <span class="userprofile-text18">
+                        <span class="userprofile-text19">
+                          Borrowing books: <%= borrowCount %>
+                        </span>
+                      </span>
+                      <span class="userprofile-text20">
+                        <span class="userprofile-text21">
+                          Over due book(s):
+                        </span>
+                        <span class="userprofile-text22"><%= dueCount %></span>
+                      </span>
+                    </div>
+                    <div class="userprofile-container07">
+                      <span class="userprofile-text23">
+                        <span class="userprofile-text24">Books reviewed:</span>
+                        <span><%= reviews.length %></span>
+                      </span>
+                      <span class="userprofile-text26">
+                        <span class="userprofile-text27">Books in cart: <%= wishlistCount %></span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="userprofile-overdued-book">
+                <div class="userprofile-frame13">
+                  <span class="userprofile-text28">Overdue books!</span>
+                  <div class="userprofile-container08">
+                    <img
+                      alt="ThinkJavabook1879"
+                      src="/playground_assets/thinkjavabook1879-ii5v-300h.png"
+                      class="userprofile-think-javabook1"
+                    />
+                    <h2 class="userprofile-text29">for 3 days&nbsp;</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="userprofile-borrowedbook">
+                <span class="userprofile-text30">
+                  <span>Borrowing books</span>
+                </span>
+                <div class="userprofile-book1">
+                  <img
+                    alt="Physicscanbefunbook18728"
+                    src="/playground_assets/physicscanbefunbook18728-zrbs-300w.png"
+                    class="userprofile-physicscanbefunbook1"
+                  />
+                  <div class="userprofile-timer">
+                    <h2 class="userprofile-text32"><span>3 days left</span></h2>
+                  </div>
+                </div>
+              </div>
+              <div class="userprofile-container09"></div>
+            </div>
+          </div>
+          <!-- footer -->
+          <%- include('layouts/footer'); -%>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

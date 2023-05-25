@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="english">
+  <%- include('layouts/header'); -%>
+
+  <body>
+    <div>
+      <link href="/css/style.css" rel="stylesheet" />
+
+      <div class="login-container">
+        <div class="login-login">
+         <!-- navbar -->
+         <%- include('layouts/navbar'); -%>
+          <div class="login-container2">
+            <div class="login-login1">
+              <div class="login-background">
+                <h1 class="login-text06">Send confirmation email</h1>
+                <div class="login-input-info">
+                  <form action="/reset/sendLink" method="POST" class="login-form">
+                    <div class="login-user-name">
+                      <label for="email" class="login-text07">
+                        Email
+                      </label>
+                      <br>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="login-textinput input"
+                      />
+                    </div>
+                    <br>
+                    <button type='submit' class="login-login2 button">Send</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <%- include('layouts/script'); -%>
+</html>
