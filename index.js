@@ -6,10 +6,10 @@ const fileUpload = require('express-fileupload')
 const expressSession = require('express-session');
 const Book = require('./models/Book')
 
-var http = require('http').createServer(app);
-var io = require('socket.io')(http);
+const http = require('http').createServer(app);
+const io = require('socket.io')(http);
 
-//idk what this is 
+//idk what this is
 app.use(expressSession({
     secret: 'keyboard cat'
 }))
@@ -51,7 +51,6 @@ const adminGetEditBook = require('./controllers/admin/getEditBook')
 const adminStoreEditBook = require('./controllers/admin/storeEditBook')
 const adminGetEditUser = require('./controllers/admin/getEditUser')
 const adminStoreEditUser = require('./controllers/admin/storeEditUser')
-const adminLoggedInCheck = require('./middleware/adminValidationMiddleware')
 const adminWarnDeleteBook = require('./controllers/admin/warnDeleteBook')
 const adminDeleteBook = require('./controllers/admin/deleteBook')
 const adminWarnDeleteUser = require('./controllers/admin/warnDeleteUser')
@@ -66,11 +65,14 @@ const storePaySuccess = require('./controllers/storePaySuccess')
 const bookcart = require('./controllers/bookcart')
 const returnBook = require('./controllers/returnBook')
 
-//middileware
-    //check due date of borrowed book
-    const borrowDueDate = require('./middleware/checkDueDate')
+//middleware
+//check due date of borrowed book
+const borrowDueDate = require('./middleware/checkDueDate')
 
-//check logged in and newuser
+//check if logged in with Admin account
+const adminLoggedInCheck = require('./middleware/adminValidationMiddleware')
+
+//check logged in and new-user
 global.loggedIn = null;
 global.user1= null;
 global.loggedInAdmin= null;
@@ -83,8 +85,8 @@ console.log(userid)
 app.use(fileUpload())
 app.use(express.json())
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended:true})) 
-mongoose.connect('mongodb://0.0.0.0:27017/web', {useNewUrlParser: true}) 
+app.use(bodyParser.urlencoded({extended:true}))
+mongoose.connect('mongodb://0.0.0.0:27017/web', {useNewUrlParser: true})
 
 
 app.set('view engine','ejs')
@@ -96,14 +98,14 @@ io.on("connection", function(socket){
         io.emit("new_comment", reviews, userName, body, rating, title);
     })
 
-  
+
 });
 
 app.use(express.static('public'))
 
 http.listen(3000, () => {
     console.log("App listening on port 3000")
-}) 
+})
 
 //home and post preview
 app.get('/', borrowDueDate,homeController)
@@ -209,7 +211,7 @@ app.post('/getBooks',async (req,res)=>{
 })
 
 // store pay success
-app.post('/storePaySuccess/:id', storePaySuccess); 
+app.post('/storePaySuccess/:id', storePaySuccess);
 
 //admin dashboard
 app.get('/adminDashboard', adminLoggedInCheck, adminDashboard)
@@ -235,7 +237,7 @@ app.post('/admin/storeUser', adminLoggedInCheck, adminStoreUser)
 //get details about a Book from admin
 app.get("/adminBooksList/:id", adminLoggedInCheck, adminGetBook)
 
-//get details about an User from admin
+//get details about a User from admin
 app.get("/adminUsersList/:id", adminLoggedInCheck, adminGetUser)
 
 //get page to edit a Book as an Admin
@@ -259,8 +261,8 @@ app.post("/admin/deleteBook/:id", adminLoggedInCheck, adminDeleteBook)
 //confirmation to delete a User as an Admin
 app.get("/adminUsersList/deleteWarn/:id", adminLoggedInCheck, adminWarnDeleteUser)
 
-//send request to delete a Useras an Admin
+//send request to delete a User as an Admin
 app.post("/admin/deleteUser/:id", adminLoggedInCheck, adminDeleteUser)
 
 //error page
-app.use((req, res) => res.render('404')); 
+app.use((req, res) => res.render('404'));
