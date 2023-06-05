@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "testing",
   "main": "test.js",
-  "scripts": {
-    "start": "nodemon index.js"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
