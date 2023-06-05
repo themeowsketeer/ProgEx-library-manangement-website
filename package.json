@@ -2,7 +2,7 @@
   "name": "hi",
   "version": "1.0.0",
   "description": "testing",
-  "main": "test.js",
+  "main": "index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
