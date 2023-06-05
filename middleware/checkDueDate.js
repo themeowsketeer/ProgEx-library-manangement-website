@@ -27,9 +27,9 @@ module.exports = (req, res, next) => {
                         for (var k = 0; k < user.length; k++) {
                             if (user[k]._id.equals(borrow[i].userID) ){
                                 console.log("help")
-                                sendEmail(user[k].email,
-                                'Password reset link', 'the book is almost due bro'
-                                )
+                                // sendEmail(user[k].email,
+                                // 'Password reset link', 'the book is almost due bro'
+                                // )
                             }
                             
                         }
