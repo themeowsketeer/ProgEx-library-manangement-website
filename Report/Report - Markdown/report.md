@@ -1803,41 +1803,36 @@ page.</p>
 
 # **References**
 
-1.  [<u>Sach Lap Trinh Nodejs That Don Gian (2020). Retrieved 21 May 2023, from
-    > Book</u>](https://trello.com/1/cards/640ad753dd796bbeefe3966d/attachments/640ad83eed283828523f9cb2/download/SachLapTrinhNodejsThatDonGian.pdf)
+1.  <u>Sach Lap Trinh Nodejs That Don Gian (2020). Retrieved 21 May 2023, from https://trello.com/1/cards/640ad753dd796bbeefe3966d/attachments/640ad83eed283828523f9cb2/download/SachLapTrinhNodejsThatDonGian.pdf</u>
+    > Book.
 
-2.  [<u>Mongoose v7.2.0: Getting Started. (2023). Retrieved 21 May 2023, from</u>](https://mongoosejs.com/docs/)
+2.  <u>Mongoose v7.2.0: Getting Started. (2023). Retrieved 21 May 2023, from https://mongoosejs.com/docs/</u>
 
-3.  <span class="mark">[<u>Chart.js | Chart.js. (2023). Retrieved 21 May 2023, from>](https://www.chartjs.org/docs/latest/):
+3.  <u>Chart.js | Chart.js. (2023). Retrieved 21 May 2023, from https://www.chartjs.org/docs/latest/</u>
     > Used to draw specialized charts in Admin Dashboard with arrays of
-    > data and objects parsed from the database.</span>
+    > data and objects parsed from the database.
 
-4.  <span class="mark">[<u>Manual. (2023). Retrieved 21 May 2023, from</u>](https://datatables.net/manual/):
+4.  <u>Manual. (2023). Retrieved 21 May 2023, from https://datatables.net/manual/</u>
     > Used to customize and enhance the table in List of Books / Users
-    > for Admin.</span>
+    > for Admin.
 
-5.  <span class="mark">[<u>N.d.). Retrieved from >](https://www.vultr.com/):
+5.  <u>(N.d.). Retrieved from https://www.vultr.com/</u>
     > Used to deploy our application to a cloud server. Cost us 200k.
-    > Worth nonetheless (I own a year subscription of Nitro
-    > lmao).</span>
+    > Worth nonetheless.</span>
 
-6.  [<span class="mark"><u>GeeksforGeeks | A computer science portal for geeks. (2023). Retrieved 21 May
-2023, from</u></span>](https://www.geeksforgeeks.org)
+6.  <u>GeeksforGeeks | A computer science portal for geeks. (2023). Retrieved 21 May
+2023, from https://www.geeksforgeeks.org</u>
 
-7.  <span class="mark">[<u>Content editing - edit button in JavaScript. Retrieved from</u>](https://codepen.io/JoannaEl/pen/ZjaBvr):
-    > for edit button</span>
+7.  <u>Content editing - edit button in JavaScript. Retrieved from https://codepen.io/JoannaEl/pen/ZjaBvr</u>
+    > for edit button
 
-8.  <span class="mark">[<u>mongoose?, G., & Rehman, A. (2020). Get T op five max results based on sub
-document mongoose?. Retrieved 21 May 2023, from</u>](https://stackoverflow.com/questions/65195672/get-top-five-max-results-based-on-sub-document-mongoose)</span>
+8.  <u>mongoose?, G., & Rehman, A. (2020). Get T op five max results based on sub document mongoose?. Retrieved 21 May 2023, from https://stackoverflow.com/questions/65195672/get-top-five-max-results-based-on-sub-document-mongoose)</u>
 
-9.  <span class="mark">[<u>Expand a box/ div using JavaScript (2022). Retrieved 21 May 2023, from</u>](https://www.youtube.com/watch?v=Et-VKwFCYIQ):
-    > for expanding function</span>
+9.  <u>Expand a box/ div using JavaScript (2022). Retrieved 21 May 2023, from https://www.youtube.com/watch?v=Et-VKwFCYIQ</u>
+    > for expanding function
 
-10. <span class="mark">[<u>How to Install Node.js on Ubuntu and Update npm to the Latest V ersion. (2020).
-Retrieved 21 May 2023, from</u>(https://www .freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update
--npm-to-the-latest-version/)</span>
+10. <u>How to Install Node.js on Ubuntu and Update npm to the Latest V ersion. (2020). Retrieved 21 May 2023, from https://www .freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update -npm-to-the-latest-version/)</u>
 
-11. <span class="mark">[<u>Install MongoDB Community Edition on Ubuntu (2023). Retrieved 21 May 2023,
-from</u>(https://www .mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)</span>
+11. <u>Install MongoDB Community Edition on Ubuntu (2023). Retrieved 21 May 2023, from https://www .mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/</u>
 
-12. <span class="mark">[<u>PM2 - Quick Start. (2023). Retrieved 21 May 2023, from</u>( https://pm2.keymetrics.io/docs/usage/quick-start/)</span>
+12. <u>PM2 - Quick Start. (2023). Retrieved 21 May 2023, from https://pm2.keymetrics.io/docs/usage/quick-start/</u>
