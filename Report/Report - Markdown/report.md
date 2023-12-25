@@ -242,8 +242,6 @@ page.</p>
 
 ### **Borrow book**
 
-> Chưa sửa
->
 > <img src="media/image36.png" style="width:5.81243in;height:3.92075in" />
 
 ### **Book cart (book management)**
