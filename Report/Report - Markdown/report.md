@@ -1803,30 +1803,41 @@ page.</p>
 
 # **References**
 
-1.  [<u>The Holy
+1.  [<u>Sach Lap Trinh Nodejs That Don Gian (2020). Retrieved 21 May 2023, from
     > Book</u>](https://trello.com/1/cards/640ad753dd796bbeefe3966d/attachments/640ad83eed283828523f9cb2/download/SachLapTrinhNodejsThatDonGian.pdf)
 
-2.  [<u>https://mongoosejs.com/docs/</u>](https://mongoosejs.com/docs/)
+2.  [<u>Mongoose v7.2.0: Getting Started. (2023). Retrieved 21 May 2023, from</u>](https://mongoosejs.com/docs/)
 
-3.  <span class="mark">[<u>https://www.chartjs.org/docs/latest/</u>](https://www.chartjs.org/docs/latest/):
+3.  <span class="mark">[<u>Chart.js | Chart.js. (2023). Retrieved 21 May 2023, from>](https://www.chartjs.org/docs/latest/):
     > Used to draw specialized charts in Admin Dashboard with arrays of
     > data and objects parsed from the database.</span>
 
-4.  <span class="mark">[<u>https://datatables.net/manual/</u>](https://datatables.net/manual/):
+4.  <span class="mark">[<u>Manual. (2023). Retrieved 21 May 2023, from</u>](https://datatables.net/manual/):
     > Used to customize and enhance the table in List of Books / Users
     > for Admin.</span>
 
-5.  <span class="mark">[<u>https://www.vultr.com/</u>](https://www.vultr.com/):
+5.  <span class="mark">[<u>N.d.). Retrieved from >](https://www.vultr.com/):
     > Used to deploy our application to a cloud server. Cost us 200k.
     > Worth nonetheless (I own a year subscription of Nitro
     > lmao).</span>
 
-6.  [<span class="mark"><u>https://www.geeksforgeeks.org</u></span>](https://www.geeksforgeeks.org)
+6.  [<span class="mark"><u>GeeksforGeeks | A computer science portal for geeks. (2023). Retrieved 21 May
+2023, from</u></span>](https://www.geeksforgeeks.org)
 
-7.  <span class="mark">[<u>https://codepen.io/JoannaEl/pen/ZjaBvr</u>](https://codepen.io/JoannaEl/pen/ZjaBvr):
+7.  <span class="mark">[<u>Content editing - edit button in JavaScript. Retrieved from</u>](https://codepen.io/JoannaEl/pen/ZjaBvr):
     > for edit button</span>
 
-8.  <span class="mark">https://stackoverflow.com/questions/65195672/get-top-five-max-results-based-on-sub-document-mongoose</span>
+8.  <span class="mark">[<u>mongoose?, G., & Rehman, A. (2020). Get T op five max results based on sub
+document mongoose?. Retrieved 21 May 2023, from</u>](https://stackoverflow.com/questions/65195672/get-top-five-max-results-based-on-sub-document-mongoose)</span>
 
-9.  <span class="mark">[<u>https://www.youtube.com/watch?v=Et-VKwFCYIQ</u>](https://www.youtube.com/watch?v=Et-VKwFCYIQ):
+9.  <span class="mark">[<u>Expand a box/ div using JavaScript (2022). Retrieved 21 May 2023, from</u>](https://www.youtube.com/watch?v=Et-VKwFCYIQ):
     > for expanding function</span>
+
+10. <span class="mark">[<u>How to Install Node.js on Ubuntu and Update npm to the Latest V ersion. (2020).
+Retrieved 21 May 2023, from</u>(https://www .freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update
+-npm-to-the-latest-version/)</span>
+
+11. <span class="mark">[<u>Install MongoDB Community Edition on Ubuntu (2023). Retrieved 21 May 2023,
+from</u>(https://www .mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)</span>
+
+12. <span class="mark">[<u>PM2 - Quick Start. (2023). Retrieved 21 May 2023, from</u>( https://pm2.keymetrics.io/docs/usage/quick-start/)</span>
