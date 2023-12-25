@@ -7,7 +7,7 @@ const expressSession = require('express-session');
 const Book = require('./models/Book')
 
 const http = require('http').createServer(app);
-// const io = require('socket.io')(http);
+const io = require('socket.io')(http);
 
 //idk what this is
 app.use(expressSession({
@@ -91,15 +91,12 @@ mongoose.connect('mongodb://0.0.0.0:27017/web', {useNewUrlParser: true})
 
 app.set('view engine','ejs')
 
-//real time update
-// io.on("connection", function(socket){
-//     //console.log("user connected");
-//     socket.on("new_comment", function(reviews, userName, body, rating, title){
-//         io.emit("new_comment", reviews, userName, body, rating, title);
-//     })
-
-
-// });
+io.on("connection", function(socket){
+    //console.log("user connected");
+    socket.on("new_comment", function(reviews, userName, body, rating, title){
+        io.emit("new_comment", reviews, userName, body, rating, title);
+    })
+});
 
 app.use(express.static('public'))
 
@@ -117,7 +114,6 @@ app.post('/users/borrow2', borrow2)
 
 //return the book
 app.post('/users/returnBook', returnBook)
-
 
 //get
 app.get('/about', aboutController)

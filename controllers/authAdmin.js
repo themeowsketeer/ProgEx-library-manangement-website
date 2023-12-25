@@ -16,7 +16,7 @@ module.exports=(req,res)=>{
                     console.log(user1)
                     //assign cookies as user id
                     req.session.userId = admin._id
-                    res.redirect('/')
+                    res.redirect('/adminDashboard')
                     loggedInAdmin = admin._id
                 }
                 else{

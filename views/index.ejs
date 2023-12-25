@@ -31,12 +31,7 @@
                 onkeyup="sendData(this)"
                 class="home-search-bar1 input"
               />
-              <section id="searchResults">
-
-              </section> 
-              
-
-             
+              <section id="searchResults"></section> 
             </div>
           </div>
           <main class="home-main-content">
@@ -577,7 +572,6 @@
         </div>
       </div>
     </div>
-    
   </body>
   <!--Script-->
   <%- include('layouts/script'); -%>
@@ -607,13 +601,10 @@
           if(index>0) searchResults.innerHTML += '<hr>';
           searchResults.innerHTML += `<p><a href="/book-info/${item._id}" target="_blank">${item.title}</a></p>`; // displaying the name of the book and its URL when click in
         });
-       
       });
       return;
       }
       searchResults.innerHTML = '';
-      
-      
     }
   </script>
   <script>

@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
@@ -17,11 +20,12 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.10.5",
     "nodemailer": "^6.9.1",
+    "socket.io": "^4.7.2",
     "swiper": "^9.2.0",
     "url": "^0.11.0",
     "url-pattern": "^1.0.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   }
 }

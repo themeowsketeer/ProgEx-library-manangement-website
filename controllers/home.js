@@ -25,14 +25,12 @@ module.exports = (req, response) => {
                                 console.log("u have it ye...")
                                 response.render('index', 
                                 {
-                                        
                                         wishlists: wishlist,
                                         idk: idk,
                                         idk1: idk1,
                                         book: book,
                                         a: a,
                                         book1: book1
-                                        
                                 })  
                         } else {
                                 idk1 = "help"
