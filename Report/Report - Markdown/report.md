@@ -1831,8 +1831,8 @@ page.</p>
 9.  <u>Expand a box/ div using JavaScript (2022). Retrieved 21 May 2023, from https://www.youtube.com/watch?v=Et-VKwFCYIQ</u>
     > for expanding function
 
-10. <u>How to Install Node.js on Ubuntu and Update npm to the Latest V ersion. (2020). Retrieved 21 May 2023, from https://www .freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update -npm-to-the-latest-version/)</u>
+10. <u>How to Install Node.js on Ubuntu and Update npm to the Latest V ersion. (2020). Retrieved 21 May 2023, from https://www.freecodecamp.org/news/how-to-install-node-js-on-ubuntu-and-update -npm-to-the-latest-version/</u>
 
-11. <u>Install MongoDB Community Edition on Ubuntu (2023). Retrieved 21 May 2023, from https://www .mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/</u>
+11. <u>Install MongoDB Community Edition on Ubuntu (2023). Retrieved 21 May 2023, from https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/</u>
 
 12. <u>PM2 - Quick Start. (2023). Retrieved 21 May 2023, from https://pm2.keymetrics.io/docs/usage/quick-start/</u>
